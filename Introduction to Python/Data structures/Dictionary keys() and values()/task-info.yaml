@@ -1,0 +1,26 @@
+type: edu
+files:
+- name: dict_key_value.py
+  visible: true
+  placeholders:
+  - offset: 209
+    length: 19
+    placeholder_text: ???
+    initial_state:
+      length: 3
+      offset: 209
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: hk7mkcb5uKlVwJWVR8P8OCPR5zCdme/M16J7ymkqFcU=
+  encrypted_text: y2g19yEMz2vRIDRUQu/aJ1XXAlqhbKuNuu96rPiYLXjjLDFVLx7kzQuP+haxjN8ESFJpfRpWec1pESuTjh8L+YvShOi0N4bn2rX2Ek1ZjKlEzIiNaD6nRcoyfMlrKYKN3rn+idCYP7PBXZC6EpBUeMoQ/LT179P96fblPhezTB/T9swTcCntY+OAqLAagvv9OaBTEYANDNBgyr4RNjhkQXNBKJqBIpSmH/GMu0zF3DC5mgqo4FaP7a4bOdt+CT4c7h7pPIaQuAXK23F4HtkbxGe+CGLz8tKTUjI0lLPp884=
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVK++EwV2kMyIh6JnovzV0VYCEMZ+bHecHSHjnAP39GuFmEwbORzDWHD5LV9yn/+MKk4RlVg55MZl767YdGNoPi8TIEKnxIBo3+3zVNlucsG4FV6gEq/DsVXZ//KBdM9z+BffhcgTaRkq1Evq6RwhIaTkg/OrgyVrbbY7XvEzSkmdeiiu80Ptj3/VLwtqXwjqMCiu1f+eETP6DZ5RiaQ5dqiGFw6LTMWy2q0VwrzWwI6hFWfYFLMNqxLGvlLw4NEj8n41DMt6InFwEqho5BLuHlF2jC+OJ+K7lo19hQuEp4R5qkoMv6NFg1M4seKW/nMpeSQGTqQih7yRFq8LBNsnd85twJYeXYJkvs+3xweO64vFmpEvwKfEkjDzwcj3+12OHWQhF2x2/zSD31Bd0oABWiWUcQ0V1QREOBsAY0oTPgmpg==
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 08 Sep 2021 21:19:56 UTC
+record: -1

@@ -1,0 +1,36 @@
+type: edu
+files:
+- name: break_keyword.py
+  visible: true
+  placeholders:
+  - offset: 377
+    length: 21
+    placeholder_text: '# Add a condition'
+    initial_state:
+      length: 17
+      offset: 377
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: 97FqTdImOGKdzPeBJMefj/PB/M+RuqzyMY/+EHlfX3U=
+  - offset: 407
+    length: 5
+    placeholder_text: '# Exit loop'
+    initial_state:
+      length: 11
+      offset: 403
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: +rreWeLZ2/PtWdFPxkaAAA==
+  encrypted_text: HJwUPF8Ce98ZxQAYo3CPrh5vWy+OaE/ZKGLJtZGJPf9TwB/IPlRiYubUf+MG6d/pOeAW0Rrbv9TwNrH3OmR0JdLjWCP3mYZGqIpPuoYrTs6WFngqCvYdvvni/Ik2/rT4ZnIAruoesVvB3wWAgHtKp33Z73/0VJfK/t26jn2N4IyE75Ot9tp4LT6AQqMsc4F/4k87wii6zR8VOaEZ01jxJgy68vR+xvnBUrK4rgVSqfEhiyU9kfOay8LWKGVrb6bz2MuA2GSJ+eG0b2nes74Bbky9nUsj0cUCCfemRcDlhesKkrvUScJ+ddLN9nDMvVsHLma6MsorMD9UT0hESp14K1QB3rktVtEoaLXujgvZl5zW20R5J/AjvFXebrwzly2Vw+nhRwE3he7Chz047Ju4+eT9cV1AoALJ4zlUK3+8m3J/EC0WO+h96KwA5rHAYId8JNYiNjE2RUssuUqw/XqN63kQmCn9P0QLjCYzzERl7la5L59yrodOBdrJS5+ww0XnQP6GHmGVPrItzgSMXO6IQFKxxbHWEoKE8dhwxHVX9CHWLa7hEN3YoMoXRI/Hq0v0
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVK++EwV2kMyIh6JnovzV0VYCEMZ+bHecHSHjnAP39GuFmEwbORzDWHD5LV9yn/+MKk4RlVg55MZl767YdGNoPi8TIEKnxIBo3+3zVNlucsG4FV6gEq/DsVXZ//KBdM9z+BffhcgTaRkq1Evq6RwhIaT0IwoD+j5FDY1iwOzsNPjnfyZhLJoYzD0k9sCDobjspFjrbx7qU77U1zix6R8rxl78XbPUyXygKhP8hoL4w/qM4jJRJjZZvgW/K65Mz0UL8NLG11BdWeW3tvppYGDxvwVVBeRijHOvTt4C9krYqP/27jD1EBqSN3/IDWLIqiehe7uunXf/H/ft0EK2IVMI0jsaiHbhu/MkDvIq6gelhO7RTgmGe8nwUu93owTWzKXl6It15WhxYPU70HiwM95G5ZuPSa8wj3++vkKpE938XjHBwMFmVl7bXos0fqHiFxRHFFTlheEA3n+y8FIC6piSZ0s4aFVyU2MMVlpGKI0FbwZmWFuzxzeTktd1IqYYGIj9takt2VR2OqbVsYVB0uinpaXju8e30HmTsLbqs2vN/OrMlGlNZ+PcXEEkJ7JQFGELAJoTqFppt2I72yph9EnTE2A3suAHOCvEBiQk15vtVOREVJm8jVyQqezTKD3gnNgyyRH/IsLKJGHOyuvqDewPfkyTODisamtRFaowrTDlv6IH/n4gUnZ7HYVqAFwRstQOC8=
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 08 Sep 2021 21:31:18 UTC
+record: -1

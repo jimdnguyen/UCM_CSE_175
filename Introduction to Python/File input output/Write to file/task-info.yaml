@@ -1,0 +1,48 @@
+type: edu
+files:
+- name: output.txt
+  visible: true
+  encrypted_text: EKVjH5I+V0GVfcB1u4fUmENJrujGEkJz2mjxVaz94V4=
+  learner_created: false
+- name: write_to_file.py
+  visible: true
+  placeholders:
+  - offset: 74
+    length: 12
+    placeholder_text: add modifier
+    initial_state:
+      length: 12
+      offset: 74
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: uBwPgdmXCSa+XJi5v3PN1A==
+  - offset: 98
+    length: 87
+    placeholder_text: '# On a new line in  "output.txt", add all elements from the
+      zoo list, joined by " and "'
+    initial_state:
+      length: 87
+      offset: 98
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: OLzakA8QjOP1EWk0vEogGlWGwV+nhlha4jUWFJQv84uv12t5XCCaevGVQN+HuR3A
+  - offset: 190
+    length: 38
+    placeholder_text: '# Add the number to the output as well'
+    initial_state:
+      length: 38
+      offset: 190
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: 5cFKv2KKBLK+gKgQkdZiIRMyhPgA7wlilxddQl95UL8=
+  encrypted_text: nI/UXzN97/VDvPYndI+Jk6qLKXmoSj7NR+ZN32ZzG39tx8c1tcLvbPr/+eFZqMKOLT/Fee7BbPxqYrPM/r3ZSWJd0+G3xR4i4PAIoQ0KjakpF16ymj3ggsd2s+O4iVzY/trSHUjRtaj7QLs7/ndpGWeyj3LIeuaLI5WOIwi+3wb+rxaWLqszaYr4Nt7BmhIUKxNmBIn5iBIEBSDR8pqcLVghlESSLmCWKYnKzUnIJ2msu2UiRKIaYFZHS2+OyDoyWjahXkUYAejsccIw56KdimKJof8TOZnSE/I2BoF6pVUPIo78ZQz3Ez29L2cEJhpz
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVLMn4i4qQhFhF1UZgfdvJuK7qaKjbYTUHoAdPF09ohj7+xITWBEhI1gbkhOsQ1sUjmzvusDazZcy+hVIa70gaT27rGwZt1zE0qZgJ26KmJqAiNkkCX0DtHFX3VypKnXlrC7MxpNkfssmozlzHr3AR+q4lgFPrRQK0EfzEtTHqhTY5bMWR/oegchNMUqyzOM23xS2LNCzSrMRzYB8y6a02Y5J72XR6ZWSWqTGR1DeCNxqeWdVfs4nXQ/pVxNnE/uwVtYqXo2NM3Dv+BoPzuiFtJ1GRjoX+rgqdws/8rosWvtzfIl5uTitA8AGjX/+Y3wu5m2gm9pGYeRvXWtuhnlAm7QDm1Zzjh5SXdujjmCK+chhG9o7MeEfDhNx19VWMbN7DDo4GT/bGfarQoYCDrKx2IjxwUVn9NtEvy9QgmU+1AQVhxlPFjX2Det16isrGJYprP+15ha2A8F2duVohm1iC13jKB/OI3/BPdu566no4QtSasvyJEIg/yuycAoUzvaWqTm0s3pUYN3F65hO/PvIxDACBnXomWmsNBFaI9GJ6duCMuheRIhoTnxTJPlxL+QaPlic2CTolD2vULs8E8xhEhl8JQn8yBg7D5lXil7McHSEXgxKruOa15nvQ07XHAqHjY6FCtiFiK3aZmRLb+0tKEg9hRsoOaqI6Z9BxMulWzh1KrtjXnOTTWN3xmvPAQmYN/HgQIWk2ly033AxZ2badwpoy6aZzLwqVW6C0m+wKl99eMHk8z0MrxoHQP29AUK+7zI+raTIQw2l+rC2yJnuBSmpHHpZSCIDolrK055Kiy50o3snTsWUmHxxLeeetbe7mDl5ItnIK8FMC2GC5gMWGPmGh8+jNI0B0BU4R3U4sTO+bqAyCyRN8bh3p2jUYpp7N3fX0TcWZxNsUrQQG1PSSF+LXeVCfbdq8HMmQfwdoXvnt3D7k88c9xIHdFRrZ8B6p7NYma1pBwKnIg0nni98zFt/sTSqSAnofRGDxGdVMp2EdCgT/2u6zC5O/FD1LkfsXDtZn0A1l9zNqTWNWDTui/D5P72k3r3TFYRjD+ym3/O0eZfQBM+NP4nCPAp2HHGudtYXQhBnkHqRH3Tl2x7+OgezGdTCRY3r20BFs44i6A6UDxLMz4lc33TormoBIo590CCOWvLLKM+3gbo2+Dqzr6svIEh6eP0zr+B/iz+05nViq3JPMjji8SU1ViqtcS6VWsWmYP76sO/MYKzdZNdua/qU/b062dIoZqvy/LyjhdrnKtHMU57DMIbVYTY8CS9j51FxP1gsRQ8LgeI1ECR7LY12TUfi9itw+NjUOADUmtdAuic0wlSj0uxcFk4hwRaidLfKJTmWbfY2IzF9OjP0c2/MhDjPJgKZUGvwCcq2N2cRuGi8Yji3X+JXMfaX9rA6TwrBPMPF9iLsU2Ol9/fzcPEP0Uogwp8JnaNrpH41cjKRgFYK9p/FOTFH71VLsaiy/xK5/AUeUlOZUAEkl8tHAytnUN9969tCwj48tes0eSc1tB/r3NZf13iVa5Lq204YHufMUy7B0XEfLtbeyFmhKtT71HzIb41eU5ivusAtX7Y/IlRGI9IJsk40+wET288hbWcpIIgcBgcCZaCDRtiRUeyJmTPyCDwbUn2AgIXvBCxnTEfkYI/OdpkJoyu0VvP4q3+m264T/rOR9YIj9Np7bGAy/nyPDrH/arrL+li1u/E7MNgxky05ZpIAvRiVpvKb+yucGvcOwb8/gZhLZkz8CXz96pTRFd9CO+FHRJBH/a9u0vPKYKf3PwdP/gZAYpVmeU=
+  learner_created: false
+status: Unchecked
+record: -1

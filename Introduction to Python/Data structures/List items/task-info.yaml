@@ -1,0 +1,26 @@
+type: edu
+files:
+- name: list_items.py
+  visible: true
+  placeholders:
+  - offset: 300
+    length: 17
+    placeholder_text: '# Clear the list'
+    initial_state:
+      length: 16
+      offset: 300
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: cIh93EWO/bqrQkDk0AcHdw==
+  encrypted_text: ntrWTxybLwWXbhmXy2hxGlzal8HOI2mnYpEHv10/XBWxh/1K5MQ11cDOLXeGUqK8Z5vzJxnuXBTUb9zRgAc/PNBgGN+LmFwBoel3ZmSmhVVGtXAyPgf96fzfcKvGWM34WQpXqxkJ2szn3dtG/JFauMdUDJwYIB7Rlp1DDEwgSnHb7VEdOFbo/3E9yxKn1KSpTe6Dn4hIJ2etf/skVoqW7IWp0Uv2Ol3E1CeqYH9psBgBGvs3JJHXAEB0WLObiaW4XRZ+71AQjFjpdmGPgeNG8mrB/fAQkQb4nrJ8gomA5cLI6aiSHQEPS38zQ1p4AgZKW4SW7lR9TdlYaHOyktakOX0OPaAu3eWXG7SKl97Q3wJr0g42037HmC5ZPj8UjWYSxgA2MwmkuqzU/u9oCKdg/2QIrLKV1Du78YecnOTBAU5cKwugWvNp0akiYdQZHtjz
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVInE5EUiuOtTnEjbT46VtwAKKoKRgxct2gt6fg6Zl5iOciEEXIIX14MDE4s9tJrLb1t1xIVMuGJ8Yc2HoMgbWZhMbEBzVym3JZVBHbV74dGoMwlTU8WIc18pCcu63MdnMRmH1za+aI5/cTV19w32pel0DmZPPp/XNxRQw8OOkLFkbXtxW14YH4HVM2ssv8Yjc46u+oMEJXMRUQWIAjY5CuSuiynqfSSMgmbSQ4qQU2qW4T4exeRlERh5JPS5T9T9pFt0Z9Ko5FLO7nmzgnGvpu6YvTLmtrZdP9fy+ch7NL0UwYrphtNaR1bL+eeRX/rKQoAXPRUApubt8SkLuK5pfjNvh1+MHKMeUtyq+ciAAUw5irIgYJblA5fptpumOmf4SDejnlq2To40xhRF7Jd3zbKD/aEcdjXhVzHlPrRtHaJDBco+KbXE1r7gjE/vycqaD8uDFlXlkvPndCTKVvKHcct2PnSLgHBiMBtRs+tldqMmqCDSd2fAue1yDGMqdZWX3mhVQzdn6QOM8sFK7AVuSbYfwRuyrb/vLsMVw7IPmNxbJKmENfh11Jo6UcL7uvkGk1Eg+5zhkp28LnRt25eK+0sg5wUTJa19RMjgj0NmYEp+8Dns8vQ94SC/U9MA4At566e0YBMzGQoV+ruST2/JSfzN5QH1nnkyWvteFSLv4yp6A==
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 08 Sep 2021 21:15:26 UTC
+record: -1

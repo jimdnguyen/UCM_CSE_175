@@ -1,0 +1,36 @@
+type: edu
+files:
+- name: else_elif.py
+  visible: true
+  placeholders:
+  - offset: 351
+    length: 18
+    placeholder_text: check if name equal to "John"
+    initial_state:
+      length: 29
+      offset: 351
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: YXWeHMShtP6NRYqEh0LNO8VV38RIZiZihC2BpcnS3Kk=
+  - offset: 386
+    length: 5
+    placeholder_text: otherwise
+    initial_state:
+      length: 9
+      offset: 397
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: /fMLg4I+Zcr3UpgWVHe2HA==
+  encrypted_text: JUOGfGmNTRmVrK3D4g90EVIc3tsbLBo9Hq7kwkA8g7Jg1QYolK9X12e8JVv58IHoCfUQwHItfBUDOuK9WFpx8trkE1qAVEDWo2nN5UgPFKWvclETj85gCjfFRKQNwehbfNRUOlwRFPYOYf8+tB6JPXO3FRpVY4Jx50KyY92eM0L32X1cd365e+1A9Cq0TxvYqufPd13+5hCoadRuzN4xhU1NqXO5PV/qYalYGgKxYkWp4CwmhG6RTQRl/SXwWvwe5SU2IQ8Mz8oYaifcarf4nuBS9r+0+w9s9skQb5ktnGWRelHyL5LCDN8NiKRbeVDBXbl/xTfAVV4boIPCA2NZ8yTC5i09AquXgeexGV9aOlsCkFGBcvDNMb9MFVWsVqHCWsMjNsZ9plXboHkiJYfpoy0Tu9AfI/khEzgeWj3BdxM2Oq0jkCvC+jcbpIRuGfQGsx1yon6ex+7JYgGplLhtcu1Hbjj4vKUEds3BS5xbfvyS6wNimtak/mb4j9fYcGeSHHVpcH9gPVnK4m6pASMTJg7gm6HYmQJBgYObUwImrUznhfKPeqhwgt16EhU2PKC5
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVLMn4i4qQhFhF1UZgfdvJuK7qaKjbYTUHoAdPF09ohj7+xITWBEhI1gbkhOsQ1sUjmzvusDazZcy+hVIa70gaT2D5xBJNR55A+yaUh4mwVoW8Cf7UF+Rvi6ZGNlTn4iGUwMX0WoeuqBO8Ibu+tQRMQI2DGTc+o4oWGFJEG79HZaQC00eFZ9h3MsMzI0nJzSZBTYFDwROEts9+96PeGPKNt5ycXH7S0clBwKuw3y1KBMs4uykYJ0Opj/UglpXB5muFbl8EwrCYHmcR9hLWCrsfErrYmUQQqs33AhyvbCgkYc/XvnltnfjN4jGnlIMjTNpk1KoO6uLQjIbRHKoY/tyUhLsWmBzycC1RWVd0AMVSczQJU7x96xjvps+Emn1oISd65E29XowJOOQoFabwxSLXEzS0Zf9dAEaDL+lh3vZBvQYB9z7azqIDwGLUzdZsAlk78Phjo6LRWQsbwlkpv2JHvxyEHCTi2kWpJigKVVtVR+ADSGqqdiwPD39OaFC2YiB3qLexrrRKaAfAXWA1iIX+rv54taYQd3oXE0uNmGWGLSsnEBzd4JVZ5mJ+BGzVAeGO7EW/caHImI3WVoiLGNxBscJED31HougpHSHilR0ra0Hwi8+8xJbzpy0PkbTuek2WPIw6k1HjUuu0yHwBKaxdwyq6XM1idwzdj6/YrfDsMfYJ5nTWVziy1MrEORfOAxIxnTD8YJqFlMMkR56mF1FJOZlmeGdilFGRdWRYxKY/WftM3t7s9UH+3DYaCwQC36aB/4BxhdSNl4PRbw9+J+rjO+FvJHDy8DcR11Ojs9vb9GZOyVcK5RSpnPq+l2HRHbHA/kxFkvdNEYBxLo6TFxm6OJZLoH7l+ihRv79xn09utpbgUXxcapBviGXnuIVqZiEoBA6LBsz6yLaL0OXt5M1CPGpOMzPpFZOP176maF6LOEd/JMNoA5InrlrgqNFX7LXtga5cUgoY3Ax811ZGaJ0hS9toWcx5qJpzoftTvWrcQ+cvhyhjDqVeWWcXWyc5dnjNb3xMPDMSFN7oktkwdfYT7ActxWVqqLuULfEil38QM8qw==
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 08 Sep 2021 21:27:44 UTC
+record: -1

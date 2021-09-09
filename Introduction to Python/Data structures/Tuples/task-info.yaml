@@ -1,0 +1,36 @@
+type: edu
+files:
+- name: tuples.py
+  visible: true
+  placeholders:
+  - offset: 161
+    length: 13
+    placeholder_text: ???
+    initial_state:
+      length: 3
+      offset: 161
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: IAk8UB2JaIUIXRXtJ1Qdog==
+  - offset: 189
+    length: 12
+    placeholder_text: ???
+    initial_state:
+      length: 3
+      offset: 179
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: 2WTPq+2yTy3RpoySooYDsQ==
+  encrypted_text: u7LI2oWQk7N2ey3Gy/E7UUeddNVLTtiwhAnjIERbPopKZUTBjWRj1sByLYQspfwsMLpG3IfFjCkACgYTE17rjOq1PhYNqUX35X0mX3tjxIi/sLbw5cd2DttElgt2iXL00cyltIcQeiQWvRVyanglzzuLwIoyb6AA3i+jJ2bdSUikDCrYvWNxhQ80gUyGrUNXO07XeiD8AfTWXsT/7c43IbWgM+1V8VlBbhIeidFuG+QvRoZ/cP4SJONvvxf1Cw1k4hK/PRnFAeenui1jzXMcvA==
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVK++EwV2kMyIh6JnovzV0VYCEMZ+bHecHSHjnAP39GuFmEwbORzDWHD5LV9yn/+MKk4RlVg55MZl767YdGNoPi8TIEKnxIBo3+3zVNlucsG4FV6gEq/DsVXZ//KBdM9z+BffhcgTaRkq1Evq6RwhIaTsXcVn6EUpyUUXAsE7/FNy28ztlrgmrzYR1Bkw4p7kbwfCgbiBu2H0VmBNu3Gg9nF5EoKrJ+MaHKUv6sdRmRVpqwz/CpdKjcZJ8gff/xImWTep+ABb+SvY115Lexn9NaiXEesTEUzntSB+/kfbQcLCUzv9Mxf9laHRducKZ31M7LnhevADeh6KMPvkRDVJ+5lm35K/MmNqnn4n8WD3TTZZILYpiInaTYBt7Rlb6vy30qJhjtNzPANdfOnLOuRI3x5HcDdSyR4iLpb4son0pQ0yMoHLrbXZet/HGK+KWx6NOMVyppZEMWpXyfJqPuxMEP8Y/LDkkP9/Z+vj4i5wKO8UsI99fU5Rr0ihUqENtb3LM8bLbUuB5pS+/j4nxM48cpjVZre1SS82rKaig8vWZvcwV6d1ZuKZdpXRpoXzB8ZX0JLY59uLNjfOjMZvwfXggBxEMMRTWc1vZsMZsCYunz/YM+RmcgmQOmu81QzuCGG3Wq9d8hZQLL/aklRuhNUQj1M4yzAkKTb8WzwuxpF4unmgnScv/C2egWOIoR2Yh1VLGihA/N+/uuNpAiXSMuUF8ByvPuu8phJ9TMMbQzshxtzaZTvGMC2K0W8/9TBBGxjI6JJ+DLP3ARA/lgckF97+YxHB/HDl2Bv6boRANTV2Ve0PZ2cHMPVfj/vif2/zuLyZV5SFN0VVl6lnggTIMM2PbMwaFQUJxCzHeVV2v9+yybI/gMp+2rNneyWMay9Hr3ewp8=
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 08 Sep 2021 21:16:52 UTC
+record: -1

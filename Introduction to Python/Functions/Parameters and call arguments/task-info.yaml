@@ -1,0 +1,24 @@
+type: edu
+files:
+- name: param_args.py
+  visible: true
+  placeholders:
+  - offset: 145
+    length: 73
+    placeholder_text: '# Define a function named "square" that prints square of passed
+      parameter'
+    initial_state:
+      length: 73
+      offset: 145
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: ah4ZKlclxY61/lU4IDAEpg==
+  encrypted_text: E77CYHXyzoSdXqERE2/BR0KJJZTDdU2DNDBtyizFvlMZm1S/c2+7iZa6iih6/Dkph+gNOuM59Vtlnn0JXmjqqB8DPQHu/2EMPQvkCE84bLt17828dMbTarILEUblFeiaPx7FhjymC1teXzl74PDXHkrDN3iLatcqxAMIPNI5hExA0oP+eUDEqwiM4MYpvMw1+qKJn0Nd4lWYZtIUDwU0c85yd2JH1/DdcSLwmiPNn4ndoT+kelnRXPu7/lyDojRA57kTTP74x5lIUCzPPwO7eCQxCx5H+ztEml/h8IzC9v7ffTWFMltRnRG048Oc7Df+XmBXK8IF5jcdugf6p1wFg13hgtlXoVR7aHD2nPl7f6q5NjXsxCy8E0PXJLUyZvos4pwJLWuyZdTPbKlyZtgaww==
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVInE5EUiuOtTnEjbT46VtwAbnjjvH5dEjidHvlgfpTz8Ju6ctWZL35H5dGLT2emOxjVLxQGFMgm9GzFpt2rxZTyeetrOuKoVi9l+57mEwwzTO+fBx8MTR+bCM6qpbhaS7U5/NHDr68hG2EXmJYJs93IgfFR5LLytSEsFizC8a/vt3KUhvBHkRoQ2x/gMB/i8UDGNUZf9uKWSQ+IXT3YykfUDJh8IEZ05bFG4A6BFgbeoGVtLPunRIQ3TIAhHsUJB8pgau/PIx8cDq6OlyG7TtD8DnGjHO3JellJzUonAbGFJ3q5afGnvEvPo6ByzRmbo1+cJMGrSAHVn1/54vVqYTrhAE3wFFn+m+YA+MNN3kJ0NJsjjsDS6dCwMzE69aOlvwbhLbIsOMvY6h0hpu5LHvraIL7WO9t7aQVDC50d65sRirA1vZaW4oeRteeeWOewFPQTvw9oUOdCbhO4gsMii7zc3aK5Bi+4lh98yAvQbNaEYClXfQgEVSapVRmi4EIG31UO00luqI6qu7C9867RW8/ZvZ06/rzmyVGWJu6BJevbFfY2+dikKTpnODy83hoKF4Y1v+ghUWNDpj2E5R9l8KNyAutEsavt5LqaR1fT+qzFE6SFZOxDEvr+IvTxQeaw8/apchatr3HSKbQPMu3y2WU6vHiK2mDZE9dOGgCRG+WwfQ==
+  learner_created: false
+status: Unchecked
+record: -1

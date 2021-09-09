@@ -1,0 +1,26 @@
+type: edu
+files:
+- name: join_method.py
+  visible: true
+  placeholders:
+  - offset: 88
+    length: 22
+    placeholder_text: ???
+    initial_state:
+      length: 3
+      offset: 88
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: CboVkhzBcXh7h7EwKSgWKxbDLaQaRtR6vjuu9cfgX50=
+  encrypted_text: mlRDI+zN2lvi7yekcCau4PXy3qAXLeGn0w20/SsFjAtzoD9/OgXMxafvpr9dsLtZISkH4Hd/CgefFCX0n3zWnLTlGRcrysTSgdk30tqLjdyTna69bng+L99YSJJPAirGU3AyK0zgi4APjuL4HfTiHcdf3cUHZFMlftiaIjAnlJY=
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVInE5EUiuOtTnEjbT46VtwAdEVHHDA+kMIrh1VsgS6UFIsN5EqPPlVYA4F9Lq5TZ15j0Vx518ibv6SW4PefU0IHBG+jVcI2nydc7Own9cAO5RPuxHAPQKHzZC2OLU+MtHcIRalA+/77TLwu7QrIc2AgrN2Yor8dBLgO3izkhVyEyOBg50KYOUOC0I1KKZ+sRmnmWDnKCPZKX6i2x4L9U+F9YC0uAeM55YeM4gtokgU4WxM9ykinhUoqFHAMInQw1y/PPR6nrcpoE1ziUPgF4YPz93Yzce3k8MYjm4+nrUD0YEPo/f8d3AjN32e54i5Jedh/46NaazTcCefnoM1hZaXzKCjJE0l1P7fTeEwmw9rNbWXfkADuDl60dHj6TuBjyMZikgRNuxepMMNGc/u/fj4RVNjvEcTSf7LBG8EG2Xf0BV4LxxQESfke3dG/pk9ULtdN11kP8oCk0MJSO8ooziUhtnFD5LEZTNSUYPRul5ynhplCde8psTvn05n8yXUyeup4yiB8z0UbhHAAuRQRyzwdYZ0kFyubaQx5Ad7w6GHQ1tsvr22ozBwdLVvsHNrPVufep+Dl+KJhuZaP/M+EtW8ESJTukkE7mQVvRPujZ1uYzFXyGM/Q2X26uBzPKjpoNT+FEWnfdr3jh5L4a30FNoyyrJxTQHNvBvd6xTYJgkCNnahIRpLWjr8BeFxBA8ClNlMB5v4rIwkZhU5wzCqurcUO2+YM3ef9FiNqAq+Jllne3IhsoSWflRZVol5pyBdMZN5/roI+yrhKYmI2l3f5MIn2shJHaWGy6u7qgoL/EcOoqfKe1ow8XMNM7q6PvqUE3jvIcKa1mpvyML43L4SSVhHr
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 08 Sep 2021 21:19:01 UTC
+record: -1

@@ -1,0 +1,51 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 95
+    length: 40
+    placeholder_text: '# Import the official module as official'
+    initial_state:
+      length: 40
+      offset: 95
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: BdfI5n9eNpE/PpMVcNRX34G0359qrjPEpkdEElk1j0AnApYq/agY5umcZ79HEK32
+  encrypted_text: BdfI5n9eNpE/PpMVcNRX34KtWiNav5P85DRcA9cb8cI7GeGoMR1z0/ldqR9BoC+SGuGxFRmIyWgFMFjmzXw14ZCwoL5EgyF0NI4W93oGIFzoUuuCxKBCuMxh25juC2jEetshGIwJIwk1O9jdO9guFVZDKfZo9G9FV9pNLBTMDsaZ8LTyG0axPE0Du5+PrF+H6gDcsWxk4GN+DCEDZo40tAbimqG7r3F+OsP5AScq/LFlGXUNK52STj88J3BsmbxjBfrUxx/xDFjWaupO5XZYp2Zmm0XhXjNw/+8nqINrXHpyId28N4TcEO6nOKfj4QnopQHYmwscy3hy1kDr7bUGBBOjde69J733GiUVg6xL73gl2tBLbuNjOG9/xAyjCH7hzPPhJZOtuSFjepg13QbE3Q==
+  learner_created: false
+- name: functions/greeting/hello.py
+  visible: true
+  encrypted_text: OE2txtbWxwDIMfF/jRh3JUtrl+jg2gSU3MF1jjChJSXZkbgZpab0R/5G3x5eTbwWGve0ZxQitFpb2CTDq4FZ1ZiA444GosSwLDgcC8jdABEN6zFBjJ913fWfnFElM1Pdyzg0RwqepWLJOaUMqYm7DDCgBBUmQgqf4ue7AYFmuiBdja9ObJObKE+U+FSWbp6k
+  learner_created: false
+- name: functions/goodbye.py
+  visible: true
+  encrypted_text: OE2txtbWxwDIMfF/jRh3JUtrl+jg2gSU3MF1jjChJSXZkbgZpab0R/5G3x5eTbwWGve0ZxQitFpb2CTDq4FZ1SgeTlVYDetaQxh962LEAtakSAH+c5qxpGCrIq1dIL22OFyv0Sle8uXFnCFFZHK/I9c5Exc3jHCSGiWGvoIiO0paui0gDNAczhe5X8XG0mbXLA0+g06dM9GOLj4+x7tDOg==
+  learner_created: false
+- name: classes/calculator.py
+  visible: true
+  encrypted_text: 8OtzQjb5SoR6NJEvbIiowT7Pl3+NTVOqOJGfYU5hS5J7CWzga7ojR8w0R7brQ85sMnfv8/ovGjQFOJR4NaOCVlQxOjVwrkhgGHqMqF1GiBKh/iqdPQ0c1rxry0JeynlhjagCEiENGzha9SJNfPbRRtXk4eA7fUdTICPuGUvJV3KgWpohUpuX1k5WYZcdsyrjiM0vaMMsOxIZLOKNhFCHF4u4esljRe4PjkSU9z19TsfJN/2Tm9C5bO2stsEkPV9XE1TZGJDGoASH/PTnFYtEFHbCDLCBWupixSXfEoOL2qah/FiprryjDQyzTDU2+SSvYTNo+3pTX1PLyjuKPGY7yPI6fa32n1sc6LvsJ0lQjQADUpKs9k7HQv+maupYzdRhcz+5/0neEZDPbzWQaPLyUcDnhsYhDXgRKEi45/3rThyJb/gdc3dWvvz39G/LTDP2AmhaTXdRMVnWFvF3fKcJyJY1CpvHTJjf4Kk+QYeMHVAQMsPvWEhWMNnDyo0AUNnjwM9Wpllq+Qx5UNGtlWLj+OYP9bv4pkQYTAoNv/npDMXzwsn/uSDjAia/P8foI4vEj//6wyYGOggVipRAh/difTBuNpor42Y8E55j0wsB/ostvzXnxxOMbkivCfdNs3JrxVePI44jDLxXNR82cazruSSJ+j0vox1vl0oLVEIXJqXKR09J5GAAOjCPN+N4aq2Dk/hKmVzvFbnQwfEM0amcXIzmcphousLhCfPqbBpehd6lD5TMel3qSpmvMTf1FV3ecZa71dPFcTlB256a9Ub3u6QSlPm86ShyWeqes5tZFRc=
+  learner_created: false
+- name: classes/__init__.py
+  visible: true
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+- name: functions/__init__.py
+  visible: true
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+- name: functions/greeting/__init__.py
+  visible: true
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+- name: functions/greeting/official.py
+  visible: true
+  encrypted_text: OE2txtbWxwDIMfF/jRh3JUtrl+jg2gSU3MF1jjChJSXZkbgZpab0R/5G3x5eTbwWGve0ZxQitFpb2CTDq4FZ1fRYw1mzA6B1dLmISXJVTLxwM4IXrT47pSsWv3Pje/zrx9dyvLyfbDnh+9haG0jiRLWZVGX8wyueBWnW+ywpkDFWFtIdRpVbJKbZmWM74JDhPs982lLM7FB3s2pKbR5RX+HsL8kZ+n+rpdJgQ2kFg4oC6ol6ClrSagecLTBRK1/l
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVInE5EUiuOtTnEjbT46VtwAdEVHHDA+kMIrh1VsgS6UFIsN5EqPPlVYA4F9Lq5TZ15+ZVlcN0xKj1wW6jZkAAZmwFBrbC3DMyxpM53h9ZIuILM+k7GWi9sZxXdPpdfp/7UuYkV/7JPZeBiqjH/wNu1WUC7itNiiJLiDyr6fyWwEh9FqigNjuXRJ++olJC+fmOc8XZhSfyQWesfUk6HJNUni2Pp9AM91T4j3ceYAsupqckKmfm7IHe0rQz++xJiR+zYmK+xdoPKSnhP0KuuxiM+2J7hSgaAOeU2kgBbrhso3L+8WQloGHO6RS/WhtYm70H6Z8MXYSR0E9KHGAMrt8lQfzZ7MvhMO5wCUK0rUBMA6JmpdU1/tIpEPtID5l4v6DQtAQWhP2iVfGxdWwjH+BTrTDAxfWRL7FwIgePXX+L+RFeQsA9BYhnz5DKKPplWqFXo=
+  learner_created: false
+status: Unchecked
+record: -1

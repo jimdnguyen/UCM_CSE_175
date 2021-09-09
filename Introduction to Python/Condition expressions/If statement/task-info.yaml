@@ -1,0 +1,26 @@
+type: edu
+files:
+- name: if_statement.py
+  visible: true
+  placeholders:
+  - offset: 236
+    length: 38
+    placeholder_text: '# Check if ''tasks'' is empty.'
+    initial_state:
+      length: 28
+      offset: 237
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: w6kRyzlt0FL405vESXuJry9fxuF58XyqE9BheuTe6h4=
+  encrypted_text: jTRA5ybceSpFBbSNeYml7LWD+llEEmpXQsTfW7P8oqyaG5qsbAZpugDbkQPAwOPfypXHqnLYgDnkoBrGZdIjrA389nfH8/nBYrJ0EDE2kRMM/YZM8AO05qVdczQvGJolMjiPepKyz3tBPb1+nbtMIkLvkkRRjJpYrcA7vB4TwT1/JJTHAajLwwoovEVz2Ca0KwRUo8+QhteuapYV3Wkw57kDFd+bPxcJ8BJo/SsodCdd0LfYNEeOPDLOncYc+XxQ5rY5ZBAi7zE2fVcQOd8iHaTJGPr56+TN4T1C+RH0Ow8yi8Qvd05WXjLbbJhs/nTki2ZnYePdKMER3Yc9hoYzx8VVDJ+itAw5kE4Jh4N1sGjtcxko474CSNfnQcja9Jtt
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVInE5EUiuOtTnEjbT46VtwAdEVHHDA+kMIrh1VsgS6UFIsN5EqPPlVYA4F9Lq5TZ15+ZVlcN0xKj1wW6jZkAAZmwFBrbC3DMyxpM53h9ZIuILM+k7GWi9sZxXdPpdfp/7UuYkV/7JPZeBiqjH/wNu1WmqE+A2VDnuW5knKFm2i0Nt0V2pExgEOvF498FXOmGuGrosBeGdvlqebeD9NsFjDsJTbwzAIJwa20WRJD4i2gZSFVQe7t9BRCMv7N2Hn/KA+eDYUj5LAQjxrP8J01ddwA26/uIY9gZzcIUuNPW+ofgH6c4OD+YUC0z6s3nyOlRRUqo6A3vBf5coFgIcXTIkJqFk8p3991jIV4NdhecILpy2OBSiILwhWw6B4gOjYFcvLg64Wc3/9eElscpzcKpm/SlOsMzplUzK/tu+hNT74bURU7hqdcpMMf73bQm5pipNfS6YzJRfYz1pKJOYdE/4kryNgb5vdjmxGy+gqQIqQTCXS23sNNNGHuRtraH0OmInuETm97weE54wu2SY8Kfgl2KUh/GsTCKUmcpiFc4stqY77ZQ1SR2tRutjd51+SwvLp9+k9mv0C3AS9fpWDz6PLdy75ttzJyXxGmGvOnjRb2Hdc8VhWgUsANxyTw1hM6Do/G/k9bNZEWcMhriXFHsOp18lQzBhOwXz3zRkwialajaLUBkRJ2bdIiBD0lBc/8YvI=
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 08 Sep 2021 21:26:54 UTC
+record: -1

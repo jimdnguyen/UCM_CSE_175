@@ -1,0 +1,23 @@
+type: edu
+files:
+- name: default_parameter.py
+  visible: true
+  placeholders:
+  - offset: 478
+    length: 3
+    placeholder_text: ???
+    initial_state:
+      length: 3
+      offset: 478
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: fPhlgpPEw2neiOYi4RDT+GJuOOVucMpASNcbQx0+jPM=
+  encrypted_text: Li6UfmkWiazjJg0zQ3XWFuGlGAcfnHi92A/LAX9IC2a4VdEuzNldBAbqLYgiCEvFdfKmBdfzG+HDdR+ejgnppr3gwgo/2VOItBJU1G3J6Nl5Rfec2vyLU1yPvwAppzeX/PwcLsGCyUvaI8G7Zcyx/aPLmhY9Jzdr+8TXhvcriHrdh2Z/Fxns9LO0VYnOfESzbrcup6K5eY6OGcHS4YELvDB0qBa/s1b4buAFXjorHgKEpYxZACgkvo7/Ln4CUfHMJ+ThCkMm2nnuHtAHhHNfOPZDzXohG8xR3ChWH82OB/wF/doZJqzBl2vsVv5qWExKTpP9ye1C2Y9ViuPBwGcX3YIKBmye7kY59+AOhtrPqqqfH2VLAgnZs7MIqz0P0sNAF4+q/JlzHizkjlzfBx3nadPypg6kn111liehayzwbh2FPIgHsoVO9yC66KPZdxP2nQBQSxFwi1NRwZ2Ew8NpzZrlsr+QCDzC/BXj37IA/cwp+SmrroWXzAkPUV0RR9kl+/4M9bbIcJoSSVLB2PHaAQjwUBKdPaMlvLj/hdELxWmgLfHM17iLrPeJAfsT6Z6qRtEPvoIaG4O7VhfGWruSgOLz0i9ONaq46IvOCjddLAKY2lc1YVaUcJD9T+KpGwuh4vOUE2UR27lllp4m09Btj5GuwvSoUJpXaJH6bRtx7WVKq8Mk7OOGJ4x07vAECCAYV9AEnTn96CRhADJf7ti9CHPubswaZ3haYWU/7ZKZ7JBIQvsVc4wZPQUsIigZ//5Q0IWOmAC7HH8V9obTIe5p1Aif6uGqmbX4g3Io1QG27zHq5fiOIXniWKSOoPemxqhAoJK8S0Ie5ZQWb90rauchiIBhOdr0j/uibburpXLm0X44eBuwD0zJfRuPqU/zAuKhE+WX3U6SOQTBHe/p2lp3hb0ker87fXEVKai5jGuQbnZYdYfWIdDoXF4d7K2KQevtFRGY0+5caivVcrkp/hpm1mb+6+p5e4n0O2y5ADbcGRJQMXvU0fZAUcEGc/KtAeUP
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVInE5EUiuOtTnEjbT46VtwAdEVHHDA+kMIrh1VsgS6UFIsN5EqPPlVYA4F9Lq5TZ15+ZVlcN0xKj1wW6jZkAAZmEAVRanqxtCt5jStC6+r8/E2oRpRz+TT3xhwMLwG4bzbnPYD+LPxrhExEwL/qp7XOct3JpOKpwmnD+2XXksk2sDzjMhXJ/Uv7qykVh8MpLg5LASqIPajqWuwUg2APhiVqtBYoRSd7mRG+pdBOGa7dU/qZtRrhbWsKMVKyonfDtb13V4YCBjlVy9Ti136MBNQfsPZUomEVzMTUqHzgKbwf7jjbmY51P1IAW+rX/wilLsvySA47IxQMxWxVl78Xkqj127fzn4Yr54wuSwhog3hfKkBztEpvZPjVO3qO0v7aqQuCK5RfEwvmENtD5j3LAV01zRPZaztCffrqvjqChhERo6mN/9rpPYz1O5181oEKdbg=
+  learner_created: false
+status: Unchecked
+record: -1

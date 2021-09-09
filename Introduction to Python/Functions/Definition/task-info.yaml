@@ -1,0 +1,23 @@
+type: edu
+files:
+- name: functions.py
+  visible: true
+  placeholders:
+  - offset: 257
+    length: 60
+    placeholder_text: '# Define a function named "fun" to replace three lines above'
+    initial_state:
+      length: 60
+      offset: 257
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: Sq6e3XwEUlSArfQofqPQdg==
+  encrypted_text: KDe3tS4tR4YVwI9acBXf5UGAdySzv12abT4jCHW2OqG6kTqZX/EoyLbJx9mHiTe4y1PfZpHI1eRJ2iWGBJjp7X6j0iICeWueYAmZUT2MF6OlvliIHF+Gzqf7kV7+K5S9teH2lX6+4QBEmODJP0QDy/lv/mQEZWJsNu0QMDEoyjoeZF0Ua6wiA8DXj9FjvgFRQqUBwrHd/x3nDeMB/iavYWTBy/2jOe6nQtzdfD+lkGkIedUttqKj7/14qdO/AAXGufyuG5RjvPfZpVlCZDymxksMfGsCt6oBtt2M/HvTDlR50YmmXiaSybfgRxSFxHaGMHjF4kG7ZgtLw2KoCk3PC1DorfovlYa/o9q+fmfsz2WiJefO1kqpIBjFyBkxbaK0NjHlA1uCiOlduQWkT9kVClwf2lJ7S8edx8gKWJKZ5K38A2rQTHtzEhIXT8kPNDhURKsACo9hPZFip8i+32OwQn11p5BnxKQk8lJhGCbSLmiFQgIcfnhLMW6SXLrAfzIlhlafGDI1wo9Qgvva5jEvNQ==
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVInE5EUiuOtTnEjbT46VtwAbnjjvH5dEjidHvlgfpTz8Ju6ctWZL35H5dGLT2emOxjVLxQGFMgm9GzFpt2rxZTyeetrOuKoVi9l+57mEwwzTO+fBx8MTR+bCM6qpbhaS7U5/NHDr68hG2EXmJYJs93Iu93n/jsNJgFcLj/SfRtVdZGsVuT/kI1VblwrGesck91GXf/sNKCU8Rra+QDXCK7nxAkqqzYxMp0jK2I24jhZ4maXYR+Ps1ZMuPv1gWG78i0KCxCcxTCAllXpZmsOPiDnxQ+R/Fhzc5jNRzfp1eJJL6c0QLFgxUvROzBsmpFhkJl8vEkmXeTP8M5u336r2Ed7lqBq+gUjxcGCIa9lRHivnDfRGjhHYyPvEi5/+qVnJODCp+tC1/NA2BwayeHY55aZ7Aq0y2eliT1bOBWZQkiCB7NSVsFSeADAoTzVZiuJOKQt0rdcxWtLOKe8CswMrda1bPhQvmSDiipgcOobRfvAstplNdNazw5btELL1iZJAzebeYJ3cm9CDodE/tbN8qxBoWJBXADhA6Q+p6pnuhJRvtMIQfp1fXnCYuIPCrlBZgpZlDONuydAokKvzzlJRNBg/+oxcz/3CsjuMT/WhzZCvSXWXdcTCIVbLMc44wPgA5ODNjHAeQZjoDSB745LUeZ0mAEghacAmAMXrVbufxIPbLuuDeEkQzi+zer61brO4Fxt0jB0LgIJV3ANGombXSratPqM4C3H5MlwFAXJb1zOHfImR0SBgCHQJKz5z/H7VEJWxW2Uk9ZMFGpWSTVUn/YkFW8eCAOcTwdbbjq1HLrVvU0kdTiy35MUdckNwKL55Qkf1ohCDWUK7bt59dyEwwdTTogNko6UdzS29Z2C5DC96cHHZ2vv/SZtKdTLW0/QBBc=
+  learner_created: false
+status: Unchecked
+record: -1

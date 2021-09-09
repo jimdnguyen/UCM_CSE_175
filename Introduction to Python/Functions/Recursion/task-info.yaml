@@ -1,0 +1,23 @@
+type: edu
+files:
+- name: recursion.py
+  visible: true
+  placeholders:
+  - offset: 134
+    length: 3
+    placeholder_text: ???
+    initial_state:
+      length: 3
+      offset: 134
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: PxMooqCiv+6vxfP1UZ6IyAPECtVj6DLY/6g1GM5ILls=
+  encrypted_text: CvRM8VzBPpFdaZTgf2PaKRpntQd/GowtMN5yQpKDzUm9PTvTMSkPp0daipt839SPlckS8HPcJwgU4LrxsQYX72rcVdkQBeAbhUQgn3fusAuWkXY5cTXg47T0+u1g+C5mRX++ze5uMpV3s8fVbt9N95tjOiN3wt+nVHECpWNSpZD3qFRzTXJQnYx4LimOqTUGRZhkZy72AmGiPl21WnYynQAF2bBFaOShPhwoRVpvU7g=
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVInE5EUiuOtTnEjbT46VtwAICFyLZLDhA3gdBjDEiFgD23NdijmEfFXpphAYnG9EkdtL6jIPAMbV3GFmjkvJVrHreql+LVkDMtwnWLrDQqV9ZMYGYFds3AcZk5Ah8bA5eyR1hBquMPDSSNEYH7H8TwZQKL5XdtDVp9+7xf/dwJ7+XMx5SgkdgZjz5Hn+m+56+OU2bbA1J81S6Nv1KorY6jtmUAtfo+nE0wejlVeDYsUwXTsfzCod/6dRkKvQpLZ3/dOA+uiqzHtB//EmgWKgi2I4NeqoAT2x5S64xB+bbOVBYzLtSDhWo8PNk2CQessWqTNOSu0FI2OqqJwrwT/m1AU52di5iux04Uu1rjwLED+tkeoa8al4eqDq1ayGFXbN8Q4sUqEVGsnqdgZqRYEPwasao5IX9MinN2rtU4x2ShG7A7wdS9U1HpA+vi8JWv27PAj0DiAfr2MBy4NW85T5R3LZW7ojW0Cludyh/lKQ1FTL6BxnzISeriFVRUABG/91/CbYBHN/AsDTX4p+z6jMIRnan/hh0bBmMp2BSvItweDJgjqJ2mosoNnXQQhcuNF8niBG5t/0KsThFBHIb3FQzbC2QV0cfC0sVOcfi43HEkmk7pY1F59sDKyzcyvENjovWwrQ2tzcRE/kO7jPgUvuhZsishR9Rqz2FCSsQEM/HbULB/qd4VKXXZiYhD9A92a4pD9D8S6o91+9cYm1D559ExK88yIYxxwTkkA5Wo14qVnh8Yyvr6joYWMd2W9+6ezDhbxNeTUXBvyaWaPngskjS/hi+OKRaSjTG17q4b7NsmDJ2M41SLPY272l0uZKI1UADbnajkqsKK9vUoIVEMJ0G8gPLPLKljUKHDSisAohBMOvD7Epkx4SBz0zaf93BQflUE2CqvHlT6qP9YjKKWZ3WnT59YUBcQegMN6Ly+OM4zcaQ0BbNodkFnvzNuaiWvnx2WXSFuYZdYFH8c63cMvLEBW
+  learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,26 @@
+type: edu
+files:
+- name: for_string.py
+  visible: true
+  placeholders:
+  - offset: 158
+    length: 38
+    placeholder_text: '# Iterate over the string.'
+    initial_state:
+      length: 26
+      offset: 158
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: cPdfKNj7GtNVLVxlCB4vgl5oH1+Kq1JTTuEFI3ZmDRg=
+  encrypted_text: EKn/v7LssuCm1OxWTAmGCnp1MIjhUDF2ZQjMawxPHGmCvt/uKY8msVcydrycNV2DwBuZH6URCFdVkDPnd3K/hIpD54HTBYn9PXx1gUbUyLv2dbE778pSUUaOCINL/utS8g3DJMNk4WxeZn3bK+GumA4z2tHo8251t2czoDy3JCMq7zo/IYc3BohAObXtHGd79pf+fQdJ4a7EfLaEDMZ1PCT7Im6ocj1af5dh2E/DGjvKJ9VM0uPZqdoHg/aq70G5R/k3RVDatVHroQfRV34Du5L5b9UpZONDsRkNXGDNS5saCONLxdtPzrf2HKrG+yWDCBbNDwn9sFzGn+CHBUoJmIDaWfgjvBSZegGv2nBGkJw5idiR0YdgaAvZRaA4EGtBdjlqHEIlZsW7olYHJVbrPhzyYkm16JetYg5BOAIA4tM=
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVInE5EUiuOtTnEjbT46VtwAdEVHHDA+kMIrh1VsgS6UFIsN5EqPPlVYA4F9Lq5TZ17r9zJeN7wlU7cOWDiTGc2TuDrS8SigyRLdvek8vswtoEG4U3XMiCzrMNFx3rNqKbZpxFYvy0clQaihcCZ7XlZ8cf5BnryfodpQFQ+IykhtBhF36sCDETL5ZczW3OBDvw1AdcDRXwzBh5oWnAILATOfXado6uq7nMyLYkpA3eF/ADobMsKZpb1IODcj60cKdvAmcHOfJ0XgBBoiPMiOWHlXW9otIqhm1bLuC8usl0cNSfjcQvmkpCfU7sBLB2aa+XquJ8wR1ky++r6pu9DzPmuEkZ2STgtt4gc+UNqK5cEbzoe5eCrxazqsyZeRHfTU8yfe++gcsBoJUn+e5DCVGlXmEL3xvd66QhrYc5fLBO59ipE2nGus8dzm3Rz6bDIRbRcLXgXwS9e+KJIwJDobrLuIkjkhfn5k8mAwPokU0fKxBVXmz8m859GyTbKKZm9vbc0G5EfGh3A4njRqCG27ja4jjKy2xedERWkg9Wm95SdATZCppK+3qsjIEsiAO9rIY65qqCKnUKbJAZWG46Bk6M/MiibLSBMWzgEN50CUkTVRlFFpNRXoeQ3yFESzmIBiJHTQkqTmG51YyNN+2FT02y2L0xIFHv3zwAQE6z8UpM2Vgg==
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 08 Sep 2021 21:30:01 UTC
+record: -1

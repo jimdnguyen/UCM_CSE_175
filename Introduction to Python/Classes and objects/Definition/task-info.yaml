@@ -1,0 +1,33 @@
+type: edu
+files:
+- name: class_definition.py
+  visible: true
+  placeholders:
+  - offset: 30
+    length: 3
+    placeholder_text: ???
+    initial_state:
+      length: 3
+      offset: 30
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: q6XArmcw8/XBmrM+tZeQGQ==
+  - offset: 254
+    length: 3
+    placeholder_text: ???
+    initial_state:
+      length: 3
+      offset: 254
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: vss52IWMVKf53EG+ZFcx/Q==
+  encrypted_text: NpG+FxX+ebRJcN9TpL3RBceKmDS9Vu9ap7BGhRDILUeRYb3iE9o+w5LZ5TUnDGo72UdphusmSM9GTN03XgbIKjDV+1FXzi96lJB5RXEQ6MxcsljqvnpqkmghrzF2Mekllx8xnZIPZhZeyRY/UvtLvwhrOK9B/rTvIKJTU7EpW7uCyuBDcvgXeJf48eG2NsoiklFiDnLKYpNOPBqtd3bG8YeQMtyEWemPQmqCEN1yF6qvVZZrcNvpRguLQisvX/3Z0/U4Y6gOWcJjeGUYB+mBgJdVK2ai4MUsdU8VFpBI956p4QgsN3lK3WpM1zXOkYmVPnUXUdJLjpdSU/Lt+V+7g1rx9YvEgXOYUUeCeyZ/CoA=
+  learner_created: false
+- name: tests.py
+  visible: false
+  encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVInE5EUiuOtTnEjbT46VtwAdEVHHDA+kMIrh1VsgS6UFIsN5EqPPlVYA4F9Lq5TZ15+ZVlcN0xKj1wW6jZkAAZmwFBrbC3DMyxpM53h9ZIuILM+k7GWi9sZxXdPpdfp/7UQXFPHWzL1QYB6QECdWYZwEQRsLaAhdAkcPQMEEpoyCQSlJoALxpsN45Vg1Y7BnHLek9p/4XUWPYJ6LLPEaEgtbQ7xMXBh4DiVu3DAr1pM5Ozy7vi1qkOBvqsQCzVl5WVoBFZP+IyrrXCSpomia7rFYNPpp/w8Eukrps8pTz7p9US+nhK1HF3ctCWhpLgv+FFYNIILp7Y3/C98k1USI2xyxQ1EIP00M4PuJwf3sx6BvD8J5Ul60HYaEGILOwypz5+8UnW7eYVw17TIZZubJkHq
+  learner_created: false
+status: Unchecked
+record: -1
