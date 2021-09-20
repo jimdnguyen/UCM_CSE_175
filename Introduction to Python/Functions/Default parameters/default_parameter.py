@@ -9,7 +9,7 @@ print(multiply_by(3))  # Call function using default values for parameters b and
 print(multiply_by(a=7))  # Call function using default values for parameters b and c
 
 
-def hello(???):
+def hello(subject, name="John"):
     print(f"Hello {subject}! My name is {name}")
 
 

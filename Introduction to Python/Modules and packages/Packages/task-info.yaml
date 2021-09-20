@@ -3,15 +3,15 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 95
-    length: 40
+  - offset: 94
+    length: 47
     placeholder_text: '# Import the official module as official'
     initial_state:
       length: 40
       offset: 95
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: BdfI5n9eNpE/PpMVcNRX34G0359qrjPEpkdEElk1j0AnApYq/agY5umcZ79HEK32
   encrypted_text: BdfI5n9eNpE/PpMVcNRX34KtWiNav5P85DRcA9cb8cI7GeGoMR1z0/ldqR9BoC+SGuGxFRmIyWgFMFjmzXw14ZCwoL5EgyF0NI4W93oGIFzoUuuCxKBCuMxh25juC2jEetshGIwJIwk1O9jdO9guFVZDKfZo9G9FV9pNLBTMDsaZ8LTyG0axPE0Du5+PrF+H6gDcsWxk4GN+DCEDZo40tAbimqG7r3F+OsP5AScq/LFlGXUNK52STj88J3BsmbxjBfrUxx/xDFjWaupO5XZYp2Zmm0XhXjNw/+8nqINrXHpyId28N4TcEO6nOKfj4QnopQHYmwscy3hy1kDr7bUGBBOjde69J733GiUVg6xL73gl2tBLbuNjOG9/xAyjCH7hzPPhJZOtuSFjepg13QbE3Q==
   learner_created: false
@@ -47,5 +47,8 @@ files:
   visible: false
   encrypted_text: 6ka25xOk5wV2Eja/yJk8E5k7jJfUYkVGj8FqzASysVInE5EUiuOtTnEjbT46VtwAdEVHHDA+kMIrh1VsgS6UFIsN5EqPPlVYA4F9Lq5TZ15+ZVlcN0xKj1wW6jZkAAZmwFBrbC3DMyxpM53h9ZIuILM+k7GWi9sZxXdPpdfp/7UuYkV/7JPZeBiqjH/wNu1WUC7itNiiJLiDyr6fyWwEh9FqigNjuXRJ++olJC+fmOc8XZhSfyQWesfUk6HJNUni2Pp9AM91T4j3ceYAsupqckKmfm7IHe0rQz++xJiR+zYmK+xdoPKSnhP0KuuxiM+2J7hSgaAOeU2kgBbrhso3L+8WQloGHO6RS/WhtYm70H6Z8MXYSR0E9KHGAMrt8lQfzZ7MvhMO5wCUK0rUBMA6JmpdU1/tIpEPtID5l4v6DQtAQWhP2iVfGxdWwjH+BTrTDAxfWRL7FwIgePXX+L+RFeQsA9BYhnz5DKKPplWqFXo=
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 15 Sep 2021 21:20:39 UTC
 record: -1

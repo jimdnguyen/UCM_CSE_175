@@ -16,5 +16,5 @@ print(my_object1.variable2)
 
 my_object.foo()   # Call method foo() of object my_object
 
-print(???)
+print(my_object.variable1)
 

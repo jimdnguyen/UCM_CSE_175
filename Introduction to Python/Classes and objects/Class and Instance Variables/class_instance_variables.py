@@ -37,13 +37,12 @@ print(barsik.favorite_food)  # This time it's empty!
 
 class Animals:
     # Add a class variable `kind`.
-    ???
-
+    kind = 'pets'
     def __init__(self, name, species):
         # Add an instance variable `name`.
-        ???
+        self.name = name
         # Add an instance variable `species`.
-        ???
+        self.species = species
 
     def __str__(self):
         return f'\nThis is {self.name} the {self.species}, one of my {self.kind}.'

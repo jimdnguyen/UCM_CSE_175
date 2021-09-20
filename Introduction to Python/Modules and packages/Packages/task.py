@@ -1,7 +1,7 @@
 import functions.goodbye as bye
 import functions.greeting.hello
 from classes import calculator
-# Import the official module as official
+import functions.greeting.official as official
 
 
 print(functions.greeting.hello.hello('Susan'))

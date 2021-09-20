@@ -7,10 +7,10 @@ class Car:
 
 
 car1 = Car()
-car2 = ???
+car2 = Car()
 
 car1.color = "blue"
-car2.color = ???
+car2.color = "red"
 
 print(car1.description())
 print(car2.description())

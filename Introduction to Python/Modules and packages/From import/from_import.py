@@ -1,5 +1,5 @@
 from calculator import Add
-# Import hello_world from my_module
+from my_module import hello as hey
 
 
 calc = Add()  # Name `Calculator` used directly without prefix `calculator`
