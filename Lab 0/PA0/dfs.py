@@ -51,3 +51,5 @@ def DFS(problem, repeat_check=False):
     #|2|
     #|3|
     #use stack
+
+# for this code, I copied over the code I had in bfs and changed from stack to True in Frontier(startLoc, stack = True), line 31
