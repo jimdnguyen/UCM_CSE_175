@@ -24,4 +24,30 @@ def DFS(problem, repeat_check=False):
 
     # PLACE YOUR CODE HERE
 
+    startLoc = Node(problem.start)
+
+    if problem.is_goal(startLoc.loc): 
+        return startLoc
+    visited_Nodes = Frontier(startLoc, stack=True)
+    visitedSet = set ()
+    while not visited_Nodes.is_empty():
+        tmpNode = visited_Nodes.pop()#this returns node
+        tmpNodeList = tmpNode.expand(problem)#this returns list of children nodes
+        for node in tmpNodeList:
+            if problem.is_goal(node.loc): # node is the whole object/class, node.loc is only getting location attribute
+                return node
+            if repeat_check == True: #checking if true, and find node in list, should not add it to frontier
+                if node not in visitedSet:
+                    visitedSet.add(node)
+                    visited_Nodes.add(node)
+            else:
+                visited_Nodes.add(node)
     return None
+
+    #LIFO Last in First out
+    #|3|
+    #|5|
+    #|1|
+    #|2|
+    #|3|
+    #use stack

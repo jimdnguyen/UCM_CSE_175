@@ -116,7 +116,7 @@ class Node:
     def __repr__(self):
         return "<Node {}>".format(self.loc)
 
-    def __lt__(self, node):
+    def __lt__(self, node): #not necessary for this lab, stated by TA
         return self.loc < node.loc
 
     def child_node(self, problem, road):
@@ -164,12 +164,12 @@ class Node:
             this_node = this_node.parent
         return list(reversed(backwards_path))
 
-    def __eq__(self, other):
+    def __eq__(self, other): #other is also node
         # For the purposes of checking if a node is in a list, nodes are
         # considered equal if they have the same location.
         return isinstance(other, Node) and self.loc == other.loc
 
-    def __hash__(self):
+    def __hash__(self):# not necessary for this lab stated TA
         # For the purposes of comparing nodes in a hash table, the hash
         # code for the corresponding location should be used.
         return hash(self.loc)
@@ -179,7 +179,7 @@ class Frontier:
     """A list of the nodes in the fringe of a search tree, implemented
     as a queue or a stack."""
 
-    def __init__(self, root_node, stack=False):
+    def __init__(self, root_node, stack=False): # False = BFS True = DFS, also keep track what nodes i've visited
         """Create a frontier which is a FIFO queue, by default, or a LIFO
         list (a stack) if specified by the argument boolean. The frontier
         is initialized to contain the given root node of a search tree."""
