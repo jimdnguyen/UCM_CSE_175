@@ -29,7 +29,8 @@ def DFS(problem, repeat_check=False):
     if problem.is_goal(startLoc.loc): 
         return startLoc
     visited_Nodes = Frontier(startLoc, stack=True)
-    visitedSet = set ()
+    visitedSet = set () 
+    visitedSet.add(startLoc)  # I added in the start node b/c old pseudocode did not have it
     while not visited_Nodes.is_empty():
         tmpNode = visited_Nodes.pop()#this returns node
         tmpNodeList = tmpNode.expand(problem)#this returns list of children nodes
