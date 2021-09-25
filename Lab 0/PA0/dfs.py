@@ -33,6 +33,8 @@ def DFS(problem, repeat_check=False):
     visitedSet.add(startLoc)  # I added in the start node b/c old pseudocode did not have it
     while not visited_Nodes.is_empty():
         tmpNode = visited_Nodes.pop()#this returns node
+        if problem.is_goal(startLoc.loc): # node is the whole object/class, node.loc is only getting location attribute
+                return startLoc
         tmpNodeList = tmpNode.expand(problem)#this returns list of children nodes
         for node in tmpNodeList:
             if problem.is_goal(node.loc): # node is the whole object/class, node.loc is only getting location attribute
