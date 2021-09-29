@@ -9,7 +9,7 @@
 # YOUR COMMENTS INCLUDING CITATIONS
 #
 # YOUR NAME - THE DATE
-# 
+# Jim Ngueyn - 9.29.2021
 
 
 from route import Node
@@ -33,12 +33,10 @@ def DFS(problem, repeat_check=False):
     visitedSet.add(startLoc)  # I added in the start node b/c old pseudocode did not have it
     while not visited_Nodes.is_empty():
         tmpNode = visited_Nodes.pop()#this returns node
-        if problem.is_goal(startLoc.loc): # node is the whole object/class, node.loc is only getting location attribute
-                return startLoc
+        if problem.is_goal(tmpNode.loc): # node is the whole object/class, node.loc is only getting location attribute
+            return tmpNode
         tmpNodeList = tmpNode.expand(problem)#this returns list of children nodes
         for node in tmpNodeList:
-            if problem.is_goal(node.loc): # node is the whole object/class, node.loc is only getting location attribute
-                return node
             if repeat_check == True: #checking if true, and find node in list, should not add it to frontier
                 if node not in visitedSet:
                     visitedSet.add(node)

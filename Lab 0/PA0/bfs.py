@@ -9,7 +9,7 @@
 # YOUR COMMENTS INCLUDING CITATIONS
 #
 # YOUR NAME - THE DATE
-#
+# Jim Nguyen - 9.29.2021
 
 
 from route import Node
@@ -33,12 +33,10 @@ def BFS(problem, repeat_check=False):
     visitedSet.add(startLoc) # I added in the start node b/c old pseudocode did not have it
     while not visited_Nodes.is_empty():
         tmpNode = visited_Nodes.pop()#this returns node
-        if problem.is_goal(startLoc.loc): # node is the whole object/class, node.loc is only getting location attribute
-                return startLoc
+        if problem.is_goal(tmpNode.loc): # node is the whole object/class, node.loc is only getting location attribute
+            return tmpNode
         tmpNodeList = tmpNode.expand(problem)#this returns list of children nodes
         for node in tmpNodeList:
-            if problem.is_goal(node.loc): # node is the whole object/class, node.loc is only getting location attribute
-                return node
             if repeat_check == True: #checking if true, and find node in list, should not add it to frontier
                 if node not in visitedSet:
                     visitedSet.add(node)
@@ -65,5 +63,6 @@ def BFS(problem, repeat_check=False):
 #The TA helped me out a lot for this bfs code
 # She told me that the Frontier.pop() command gives you the node its popping so I didn't have that before and I had to set it to a variable
 # Also she told me that the Node.expand() command returns a list of node children so I had to set a variable to it for the for loop in the next line.
-# She also recommended me to move the second if problem.is_goal(node.loc) inside the for loop since she has experienced it has worked better inside
+# She also recommended me to move the second if problem.is_goal(node.loc) inside the for loop since she has experienced it has worked better inside(Incorrect Output)
 # From there we worked together to get the work to a good place before running it and making any more adjustments. 
+# I had to remove the recommended second if problem statement in the for statement sugguested by the TA to get the correct output
