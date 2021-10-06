@@ -1,0 +1,74 @@
+HEURISTIC SEARCH ALGORITHM COMPARISON
+TESTING UNIFORM COST SEARCH WITHOUT REPEATED STATE CHECKING
+Solution:
+Start at donut_shop.
+Take side_street to coffee_shop.
+Take the_avenue to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 4
+Path Cost = 19.90
+Number of Node Expansions = 62
+TESTING UNIFORM COST SEARCH WITH REPEATED STATE CHECKING
+Solution:
+Start at donut_shop.
+Take side_street to coffee_shop.
+Take the_avenue to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 4
+Path Cost = 19.90
+Number of Node Expansions = 12
+TESTING GREEDY BEST-FIRST SEARCH WITHOUT REPEATED STATE CHECKING
+Solution:
+Start at donut_shop.
+Take upper_main to grocery_store.
+Take upper_main to donut_shop.
+Take upper_main to grocery_store.
+Take upper_main to donut_shop.
+Take upper_main to grocery_store.
+Take upper_main to donut_shop.
+Take upper_main to grocery_store.
+Take upper_main to donut_shop.
+Take upper_main to grocery_store.
+Take alley to gym.
+Take long_drive to car_dealer.
+Take back_road to truck_stop.
+Take highway_south to bookstore.
+Depth = 13
+Path Cost = 67.20
+Number of Node Expansions = 36
+TESTING GREEDY BEST-FIRST SEARCH WITH REPEATED STATE CHECKING
+Solution:
+Start at donut_shop.
+Take upper_main to grocery_store.
+Take alley to gym.
+Take long_drive to car_dealer.
+Take overgrown_path to fast_food.
+Take highway_east to bookstore.
+Depth = 5
+Path Cost = 53.00
+Number of Node Expansions = 7
+TESTING A-STAR SEARCH WITHOUT REPEATED STATE CHECKING
+Solution:
+Start at donut_shop.
+Take side_street to coffee_shop.
+Take the_avenue to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 4
+Path Cost = 19.90
+Number of Node Expansions = 31
+TESTING A-STAR SEARCH WITH REPEATED STATE CHECKING
+Solution:
+Start at donut_shop.
+Take side_street to coffee_shop.
+Take the_avenue to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 4
+Path Cost = 19.90
+Number of Node Expansions = 11
+ALGORITHM COMPARISON COMPLETE
+
+Process finished with exit code 0

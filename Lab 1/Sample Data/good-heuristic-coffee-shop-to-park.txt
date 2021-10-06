@@ -1,0 +1,68 @@
+HEURISTIC SEARCH ALGORITHM COMPARISON
+TESTING UNIFORM COST SEARCH WITHOUT REPEATED STATE CHECKING
+Solution:
+Start at coffee_shop.
+Take the_avenue to bus_station.
+Take stadium_street to stadium.
+Take gravel_road to ranch.
+Take dirt_road to park.
+Depth = 4
+Path Cost = 71.80
+Number of Node Expansions = 80134063
+TESTING UNIFORM COST SEARCH WITH REPEATED STATE CHECKING
+Solution:
+Start at coffee_shop.
+Take the_avenue to bus_station.
+Take stadium_street to stadium.
+Take gravel_road to ranch.
+Take dirt_road to park.
+Depth = 4
+Path Cost = 71.80
+Number of Node Expansions = 18
+TESTING GREEDY BEST-FIRST SEARCH WITHOUT REPEATED STATE CHECKING
+Solution:
+Start at coffee_shop.
+Take the_avenue to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Take access_road to diner.
+Take old_highway to ranch.
+Take dirt_road to park.
+Depth = 6
+Path Cost = 82.30
+Number of Node Expansions = 9
+TESTING GREEDY BEST-FIRST SEARCH WITH REPEATED STATE CHECKING
+Solution:
+Start at coffee_shop.
+Take the_avenue to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Take access_road to diner.
+Take old_highway to ranch.
+Take dirt_road to park.
+Depth = 6
+Path Cost = 82.30
+Number of Node Expansions = 6
+TESTING A-STAR SEARCH WITHOUT REPEATED STATE CHECKING
+Solution:
+Start at coffee_shop.
+Take the_avenue to bus_station.
+Take stadium_street to stadium.
+Take gravel_road to ranch.
+Take dirt_road to park.
+Depth = 4
+Path Cost = 71.80
+Number of Node Expansions = 16337313
+TESTING A-STAR SEARCH WITH REPEATED STATE CHECKING
+Solution:
+Start at coffee_shop.
+Take the_avenue to bus_station.
+Take stadium_street to stadium.
+Take gravel_road to ranch.
+Take dirt_road to park.
+Depth = 4
+Path Cost = 71.80
+Number of Node Expansions = 18
+ALGORITHM COMPARISON COMPLETE
+
+Process finished with exit code 0
