@@ -41,14 +41,29 @@ class HeuristicFunction:
         #t = action cost
         #action cost -> current node and children node
         # PLACE ANY INITIALIZATION CODE HERE
-        self.map = problem.map
-        (self.goal_x,self.goal_y) = problem.map.location_coordinates(problem.goal)
-        self.goal = problem.goal
-        self.roadCost = 0.0
         self.speed = 0.0
-        self.timeCost = 0.0
-        self.physicalDistance = 0.0
-        self.speedArray = []
+        self.distance = 0.0
+        self.locSpeed = {}
+        self.locDistance = {}
+
+        roadCost = 0.0
+        for loc in problem.map.loc_dict:
+            print(loc)
+            for connection in problem.map.connection_dict:
+                tmpRoadCost = problem.map.get(loc,connection)
+                if tmpRoadCost is not None:
+                    roadCost = tmpRoadCost
+                #print(self.roadCost)
+                self.distance = problem.map.euclidean_distance(loc,connection)
+                self.locDistance[loc] = self.distance
+                #print(distance)
+                if roadCost != 0.0:
+                    self.speed = self.distance/roadCost
+                self.locSpeed[loc] = self.speed
+                #print(self.speed)
+        
+        print(self.locSpeed.keys())
+      
 
     def h_cost(self, loc=None):
         """An admissible heuristic function, estimating the cost from
@@ -59,23 +74,12 @@ class HeuristicFunction:
             return value
         else:
             # PLACE YOUR CODE FOR CALCULATING value OF loc HERE
-            goalDistance = self.map.euclidean_distance(loc,self.goal)
-            for connection in self.map.connection_dict:
-                tmpRoadCost = self.map.get(loc,connection)
-                if tmpRoadCost is not None:
-                    self.roadCost = tmpRoadCost
-                    print(self.roadCost)
-                
-                tmpDistance = self.map.euclidean_distance(loc,connection)
-                if tmpRoadCost is not None:
-                    self.physicalDistance = tmpDistance
-                    print(self.physicalDistance)
-                
-                if self.roadCost is not 0.0:
-                    self.speed = self.physicalDistance/self.roadCost
-                    #self.timeCost = self.physicalDistance/self.speed
-                    self.speedArray.append(self.speed)
+            tmpSpeed = self.locSpeed[loc]
+            tmpDistance = self.locDistance[loc]
 
-            print(min(self.speedArray))
-            value = min(self.speedArray)
+            print(tmpSpeed)
+            print(tmpDistance)
+           
+            value = 10000
+            
             return value
