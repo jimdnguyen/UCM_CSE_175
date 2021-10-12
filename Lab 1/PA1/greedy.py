@@ -26,7 +26,8 @@ def greedy_search(problem, h, repeat_check=False):
     state checking if the provided boolean argument is true."""
 
     # PLACE YOUR CODE HERE
-    startLoc = Node(problem.start, h_eval = h.h_cost(problem.start))
+    tmpStartLoc = Node(problem.start)
+    startLoc = Node(problem.start, h_eval = h.h_cost(tmpStartLoc))
 
     if problem.is_goal(startLoc.loc):
         return startLoc

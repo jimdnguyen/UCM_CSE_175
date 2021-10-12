@@ -41,35 +41,10 @@ class HeuristicFunction:
         #t = action cost
         #action cost -> current node and children node
         # PLACE ANY INITIALIZATION CODE HERE
-        self.speed = 0.0
-        self.distance = 0.0
-        self.locSpeed = {}
-        self.locDistance = {}
-        roadCostList = set()
-        eucDisList = set()
-        speedList = set()
         self.map = problem.map
+        (self.goal_x,self.goal_y) = problem.map.location_coordinates(problem.goal)
         self.goal = problem.goal
-
-        roadCost = 0.0
-        for loc in problem.map.loc_dict:
-            print(loc)
-            for connection in problem.map.connection_dict:
-                tmpRoadCost = problem.map.get(loc,connection)
-                if tmpRoadCost is not None:
-                    print(tmpRoadCost)
-                    print(connection)
-                    roadCostList.add(tmpRoadCost)
-                    tmpEucDis = problem.map.euclidean_distance(loc,connection)
-                    #print(tmpEucDis)
-                    tmpSpeed = tmpEucDis/tmpRoadCost
-                    #print(tmpSpeed)
-                    speedList.add(tmpSpeed)
-                
-        self.speed = max(speedList)
-        #print(self.speed)
-
-        #print(self.locSpeed.keys())
+        self.problem = problem
         
 
     def h_cost(self, loc=None):
@@ -77,14 +52,21 @@ class HeuristicFunction:
         the specified location to the goal state of the problem."""
         # a heuristic value of zero is admissible but not informative
         value = 0.0
+        speedSet = set ()
         if loc is None:
             return value
         else:
             # PLACE YOUR CODE FOR CALCULATING value OF loc HERE
-            locEudDis = self.map.euclidean_distance(loc.loc,self.goal)
-            #print(locEudDis)
-            tmpValue = locEudDis/self.speed
-            value = tmpValue
-            #print(value)
-      
+            
+            tmpNodeList = loc.expand(self.problem)
+            for node in tmpNodeList:
+                roadCost = self.map.get(loc.loc,node.loc)
+                print(roadCost)
+                eucdistance = self.map.euclidean_distance(loc.loc,node.loc)
+                print(eucdistance)
+                speed = eucdistance/roadCost
+                speedSet.add(speed)
+                print(speed)
+            #speed = distance/time
+            #print(speed)
             return value
