@@ -9,6 +9,7 @@
 # YOUR COMMENTS INCLUDING CITATIONS
 #
 # ignore the long float number, as long as it rounds to correct ans its okay, as TA said.
+# Worked with Denylson Fuentes
 #
 # YOUR NAME - THE DATE
 # Jim Nguyen - 10/06/2021
@@ -26,29 +27,29 @@ def uniform_cost_search(problem, repeat_check=False):
 
     # PLACE YOUR CODE HERE
 
-    #startLoc = Node(problem.start)
+    startLoc = Node(problem.start)
 
-    #if problem.is_goal(startLoc.loc):
-        #return startLoc
+    if problem.is_goal(startLoc.loc):
+        return startLoc
     
-    #visited_Nodes = Frontier(startLoc, sort_by ='g')
-    #visitedSet = set()
-    #visitedSet.add(startLoc)
+    visited_Nodes = Frontier(startLoc, sort_by ='g')
+    visitedSet = set()
+    visitedSet.add(startLoc)
 
-    #while not visited_Nodes.is_empty():
-        #tmpNode = visited_Nodes.pop()
-        #if problem.is_goal(tmpNode.loc):
-            #return tmpNode
-        #tmpNodeList = tmpNode.expand(problem)
-        #for node in tmpNodeList:
-            #if repeat_check == True:
-                #if node in visitedSet:
-                    #if visited_Nodes.contains(node) and (visited_Nodes[node] > node.value("g")):
-                        #visited_Nodes.__delitem__(node)
-                        #visited_Nodes.add(node)
-                #else:
-                    #visited_Nodes.add(node)
-                    #visitedSet.add(node)
-            #else:   
-                #visited_Nodes.add(node)
+    while not visited_Nodes.is_empty():
+        tmpNode = visited_Nodes.pop()
+        if problem.is_goal(tmpNode.loc):
+            return tmpNode
+        tmpNodeList = tmpNode.expand(problem)
+        for node in tmpNodeList:
+            if repeat_check == True:
+                if node in visitedSet:
+                    if visited_Nodes.contains(node) and (visited_Nodes[node] > node.value("g")):
+                        visited_Nodes.__delitem__(node)
+                        visited_Nodes.add(node)
+                else:
+                    visited_Nodes.add(node)
+                    visitedSet.add(node)
+            else:   
+                visited_Nodes.add(node)
     return None

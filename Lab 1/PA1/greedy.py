@@ -10,6 +10,7 @@
 # YOUR COMMENTS INCLUDING CITATIONS
 #
 # ignore the long float number, as long as it rounds to correct ans its okay, as TA said.
+# Worked with Denylson Fuentes
 #
 # YOUR NAME - THE DATE
 # Jim Nguyen - 10/06/2021
@@ -26,8 +27,8 @@ def greedy_search(problem, h, repeat_check=False):
     state checking if the provided boolean argument is true."""
 
     # PLACE YOUR CODE HERE
-    tmpStartLoc = Node(problem.start)
-    startLoc = Node(problem.start, h_eval = h.h_cost(tmpStartLoc))
+    #tmpStartLoc = Node(problem.start)
+    startLoc = Node(problem.start, h_eval = h.h_cost(problem.start))
 
     if problem.is_goal(startLoc.loc):
         return startLoc
@@ -40,7 +41,7 @@ def greedy_search(problem, h, repeat_check=False):
         tmpNode = visited_Nodes.pop()
         if problem.is_goal(tmpNode.loc):
             return tmpNode
-        tmpNodeList = tmpNode.expand(problem)
+        tmpNodeList = tmpNode.expand(problem, h_fun = h)
         for node in tmpNodeList:
             if repeat_check == True:
                 if node not in visitedSet:

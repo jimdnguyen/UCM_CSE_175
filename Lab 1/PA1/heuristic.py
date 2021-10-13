@@ -18,6 +18,7 @@
 # can calc eudication distance
 # convert distance to speed
 # unique speed between speed
+# Worked with Denylson Fuentes
 #
 # YOUR NAME - THE DATE
 # Jim Nguyen - 10/06/2021
@@ -43,23 +44,17 @@ class HeuristicFunction:
         # PLACE ANY INITIALIZATION CODE HERE
         self.speed = 0.0
         self.distance = 0.0
-        self.locSpeed = {}
-        self.locDistance = {}
-        roadCostList = set()
-        eucDisList = set()
         speedList = set()
         self.map = problem.map
         self.goal = problem.goal
 
         roadCost = 0.0
         for loc in problem.map.loc_dict:
-            print(loc)
             for connection in problem.map.connection_dict:
                 tmpRoadCost = problem.map.get(loc,connection)
                 if tmpRoadCost is not None:
-                    print(tmpRoadCost)
-                    print(connection)
-                    roadCostList.add(tmpRoadCost)
+                    #print(tmpRoadCost)
+                    #print(connection)
                     tmpEucDis = problem.map.euclidean_distance(loc,connection)
                     #print(tmpEucDis)
                     tmpSpeed = tmpEucDis/tmpRoadCost
@@ -67,10 +62,6 @@ class HeuristicFunction:
                     speedList.add(tmpSpeed)
                 
         self.speed = max(speedList)
-        #print(self.speed)
-
-        #print(self.locSpeed.keys())
-        
 
     def h_cost(self, loc=None):
         """An admissible heuristic function, estimating the cost from
@@ -81,10 +72,7 @@ class HeuristicFunction:
             return value
         else:
             # PLACE YOUR CODE FOR CALCULATING value OF loc HERE
-            locEudDis = self.map.euclidean_distance(loc.loc,self.goal)
-            #print(locEudDis)
+            locEudDis = self.map.euclidean_distance(loc,self.goal)
             tmpValue = locEudDis/self.speed
-            value = tmpValue
-            #print(value)
-      
+            value = tmpValue      
             return value
