@@ -154,7 +154,7 @@ class Node:
         child_loc = problem.result(self.loc, road)
         child_cost = self.path_cost + problem.action_cost(self.loc, child_loc)
         if h_fun is not None:
-            child_eval = h_fun.h_cost(self.loc)
+            child_eval = h_fun.h_cost(child_loc)
         else:
             child_eval = 0.0
         end_node = Node(child_loc, self, road, child_cost, child_eval)

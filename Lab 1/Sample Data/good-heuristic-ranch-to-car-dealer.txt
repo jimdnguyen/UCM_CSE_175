@@ -28,7 +28,7 @@ Take highway_east to fast_food.
 Take overgrown_path to car_dealer.
 Depth = 4
 Path Cost = 65.60
-Number of Node Expansions = 7
+Number of Node Expansions = 4
 TESTING GREEDY BEST-FIRST SEARCH WITH REPEATED STATE CHECKING
 Solution:
 Start at ranch.
@@ -38,7 +38,7 @@ Take highway_east to fast_food.
 Take overgrown_path to car_dealer.
 Depth = 4
 Path Cost = 65.60
-Number of Node Expansions = 5
+Number of Node Expansions = 4
 TESTING A-STAR SEARCH WITHOUT REPEATED STATE CHECKING
 Solution:
 Start at ranch.
@@ -48,7 +48,7 @@ Take highway_south to truck_stop.
 Take back_road to car_dealer.
 Depth = 4
 Path Cost = 50.20
-Number of Node Expansions = 138
+Number of Node Expansions = 61
 TESTING A-STAR SEARCH WITH REPEATED STATE CHECKING
 Solution:
 Start at ranch.
@@ -58,7 +58,7 @@ Take highway_south to truck_stop.
 Take back_road to car_dealer.
 Depth = 4
 Path Cost = 50.20
-Number of Node Expansions = 15
+Number of Node Expansions = 14
 ALGORITHM COMPARISON COMPLETE
 
 Process finished with exit code 0

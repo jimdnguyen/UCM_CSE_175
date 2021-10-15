@@ -25,7 +25,7 @@ Take highway_north to fast_food.
 Take highway_east to bookstore.
 Depth = 3
 Path Cost = 15.30
-Number of Node Expansions = 4
+Number of Node Expansions = 3
 TESTING GREEDY BEST-FIRST SEARCH WITH REPEATED STATE CHECKING
 Solution:
 Start at home.
@@ -43,7 +43,7 @@ Take highway_north to fast_food.
 Take highway_east to bookstore.
 Depth = 3
 Path Cost = 15.30
-Number of Node Expansions = 23
+Number of Node Expansions = 7
 TESTING A-STAR SEARCH WITH REPEATED STATE CHECKING
 Solution:
 Start at home.
@@ -52,7 +52,7 @@ Take highway_north to fast_food.
 Take highway_east to bookstore.
 Depth = 3
 Path Cost = 15.30
-Number of Node Expansions = 8
+Number of Node Expansions = 7
 ALGORITHM COMPARISON COMPLETE
 
 Process finished with exit code 0

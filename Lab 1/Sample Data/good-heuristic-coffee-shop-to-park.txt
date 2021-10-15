@@ -23,26 +23,22 @@ TESTING GREEDY BEST-FIRST SEARCH WITHOUT REPEATED STATE CHECKING
 Solution:
 Start at coffee_shop.
 Take the_avenue to bus_station.
-Take highway_north to fast_food.
-Take highway_east to bookstore.
-Take access_road to diner.
-Take old_highway to ranch.
+Take stadium_street to stadium.
+Take gravel_road to ranch.
 Take dirt_road to park.
-Depth = 6
-Path Cost = 82.30
-Number of Node Expansions = 9
+Depth = 4
+Path Cost = 71.80
+Number of Node Expansions = 4
 TESTING GREEDY BEST-FIRST SEARCH WITH REPEATED STATE CHECKING
 Solution:
 Start at coffee_shop.
 Take the_avenue to bus_station.
-Take highway_north to fast_food.
-Take highway_east to bookstore.
-Take access_road to diner.
-Take old_highway to ranch.
+Take stadium_street to stadium.
+Take gravel_road to ranch.
 Take dirt_road to park.
-Depth = 6
-Path Cost = 82.30
-Number of Node Expansions = 6
+Depth = 4
+Path Cost = 71.80
+Number of Node Expansions = 4
 TESTING A-STAR SEARCH WITHOUT REPEATED STATE CHECKING
 Solution:
 Start at coffee_shop.
@@ -52,7 +48,7 @@ Take gravel_road to ranch.
 Take dirt_road to park.
 Depth = 4
 Path Cost = 71.80
-Number of Node Expansions = 16337313
+Number of Node Expansions = 6569448
 TESTING A-STAR SEARCH WITH REPEATED STATE CHECKING
 Solution:
 Start at coffee_shop.
