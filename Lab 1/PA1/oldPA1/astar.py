@@ -43,7 +43,7 @@ def a_star_search(problem, h, repeat_check=False):
         for node in tmpNodeList:
             if repeat_check == True:
                 if node in visitedSet:
-                   if visited_Nodes.contains(node) and (visited_Nodes[node] > node.value("f")):
+                   if node == visited_Nodes.contains(node) and (visited_Nodes[node] > node.value("g")):
                         visited_Nodes.__delitem__(node)
                         visited_Nodes.add(node)
                 else:

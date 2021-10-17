@@ -1,10 +1,10 @@
 #
-# astar.py
+# ucost.py
 #
-# This file provides a function implementing A* search for a route finding
-# problem. Various search utilities from "route.py" are used in this function,
-# including the classes RouteProblem, Node, and Frontier. Also, this function
-# uses heuristic function objects defined in the "heuristic.py" file.
+# This file provides a function implementing uniform cost search for a
+# route finding problem. Various search utilities from "route.py" are
+# used in this function, including the classes RouteProblem, Node, and
+# Frontier.
 #
 # YOUR COMMENTS INCLUDING CITATIONS
 #
@@ -19,19 +19,20 @@ from route import Node
 from route import Frontier
 
 
-def a_star_search(problem, h, repeat_check=False):
-    """Perform A-Star search to solve the given route finding problem,
-    returning a solution node in the search tree, corresponding to the goal
-    location, if a solution is found. Only perform repeated state checking if
-    the provided boolean argument is true."""
+def uniform_cost_search(problem, repeat_check=False):
+    """Perform uniform cost search to solve the given route finding
+    problem, returning a solution node in the search tree, corresponding
+    to the goal location, if a solution is found. Only perform repeated
+    state checking if the provided boolean argument is true."""
 
     # PLACE YOUR CODE HERE
-    startLoc = Node(problem.start, path_cost= 0.0, h_eval= h.h_cost(problem.start))
+
+    startLoc = Node(problem.start)
 
     if problem.is_goal(startLoc.loc):
         return startLoc
     
-    visited_Nodes = Frontier(startLoc, sort_by ='f')
+    visited_Nodes = Frontier(startLoc, sort_by ='g')
     visitedSet = set()
     visitedSet.add(startLoc)
 
@@ -39,11 +40,11 @@ def a_star_search(problem, h, repeat_check=False):
         tmpNode = visited_Nodes.pop()
         if problem.is_goal(tmpNode.loc):
             return tmpNode
-        tmpNodeList = tmpNode.expand(problem, h_fun = h)
+        tmpNodeList = tmpNode.expand(problem)
         for node in tmpNodeList:
             if repeat_check == True:
                 if node in visitedSet:
-                   if visited_Nodes.contains(node) and (visited_Nodes[node] > node.value("f")):
+                    if visited_Nodes.contains(node) and (visited_Nodes[node] > node.value("g")):
                         visited_Nodes.__delitem__(node)
                         visited_Nodes.add(node)
                 else:
