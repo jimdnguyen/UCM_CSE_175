@@ -32,12 +32,12 @@ import astar
 #start_location = 'ranch'
 #goal_location = 'car_dealer'
 
-#start_location = 'car_dealer'
-#goal_location = 'bus_station'
+start_location = 'car_dealer'
+goal_location = 'bus_station'
 
 #check this one again, this one takes forever
-start_location = 'coffee_shop'
-goal_location = 'park'
+#start_location = 'coffee_shop'
+#goal_location = 'park'
 
 #start_location = 'donut_shop'
 #goal_location = 'bookstore'
