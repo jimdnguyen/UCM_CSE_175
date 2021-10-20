@@ -32,19 +32,19 @@ def uniform_cost_search(problem, repeat_check=False):
     if problem.is_goal(startLoc.loc):
         return startLoc
     
-    visited_Nodes = Frontier(startLoc, sort_by ='g')
+    visited_Nodes = Frontier(startLoc, sort_by='g')
     visitedSet = set()
     visitedSet.add(startLoc)
-
+    
     while not visited_Nodes.is_empty():
         tmpNode = visited_Nodes.pop()
         if problem.is_goal(tmpNode.loc):
             return tmpNode
         tmpNodeList = tmpNode.expand(problem)
         for node in tmpNodeList:
-            if repeat_check == True:
+            if repeat_check:
                 if node in visitedSet:
-                    if visited_Nodes.contains(node) and (visited_Nodes[node] > node.value("g")):
+                    if visited_Nodes.contains(node) and (visited_Nodes[node] > node.value(sort_by="g")):
                         visited_Nodes.__delitem__(node)
                         visited_Nodes.add(node)
                 else:
