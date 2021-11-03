@@ -91,26 +91,26 @@ crime_sentences = ['(American(x) & Weapon(y) & Sells(x, y, z) & Hostile(z)) ==> 
 # PLACE YOUR FOL SENTENCES IN THIS LIST
 
 monster_sentences = [
-'Vampire(Celene)', 
-'Werewolf(Mario)', 
-'Witch(Mildred)', 
-'Person(Bob)', 'Person(Lin)', 'Person(Maurice)', 
-'Person(x) & Dead(x) ==> Victim(x)', 
-'Vampire(x) ==> Monster(x)', 'Werewolf(x) ==> Monster(x)', 'Witch(x) ==> Monster(x)', 
-'Monster(x) & Present(x) ==> Suspect(x)',
-'(Vampire(x) & Suspect(x)) & (Victim(y) & Bitten(y)) ==> Killed(x,y)',
-'(Werewolf(x) & Suspect(x)) & (Victim(y) & Eaten(y)) ==> Killed(x,y)',
-'(Witch(x) & Suspect(x)) & (Victim(y) & Posioned(y)) ==> Killed(x,y)',
-'(Victim(x) & Drained(x)) & Intact(x) ==> Bitten(x)',
-'(Victim(x) & Drained(x)) & Incomplete(x) ==> Eaten(x)',
-'Victim(x) & Intact(x) & Complexion(x, Green) ==> Poisoned(x)', 'Victim(x) & Intact(x) & Complexion(x, Blue) ==> Poisoned(x)', 'Victim(x) & Intact(x) & Complexion(x, Purple) ==> Poisoned(x)', 'Victim(x) & Intact(x) & Complexion(x, Pale) & Boils(x) ==> Poisoned(x)',
-'Victim(x) & Complexion(x, Pale) & Cold(x) ==> Drained(x)', 'Victim(x) & Complexion(x, Pale) & Punctured(x) ==> Drained(x)',
-'Victim(x) & Disemboweled(x) ==> Incomplete(x)', 'Victim(x) & Dismembered(x) ==> Incomplete(x)'
+    'Vampire(Celene)',
+    'Werewolf(Mario)',
+    'Witch(Mildred)',
+    'Person(Bob)', 'Person(Lin)', 'Person(Maurice)',
+    'Person(x) & Dead(x) ==> Victim(x)',
+    'Vampire(x) ==> Monster(x)', 'Werewolf(x) ==> Monster(x)', 'Witch(x) ==> Monster(x)',
+    'Monster(x) & Present(x) ==> Suspect(x)',
+    '(Vampire(x) & Suspect(x)) & (Victim(y) & Bitten(y)) ==> Killed(x,y)',
+    '(Werewolf(x) & Suspect(x)) & (Victim(y) & Eaten(y)) ==> Killed(x,y)',
+    '(Witch(x) & Suspect(x)) & (Victim(y) & Posioned(y)) ==> Killed(x,y)',
+    '(Victim(x) & Drained(x)) & Intact(x) ==> Bitten(x)',
+    '(Victim(x) & Drained(x)) & Incomplete(x) ==> Eaten(x)',
+    'Victim(x) & Intact(x) & Complexion(x, Green) ==> Poisoned(x)', 'Victim(x) & Intact(x) & Complexion(x, Blue) ==> Poisoned(x)', 'Victim(x) & Intact(x) & Complexion(x, Purple) ==> Poisoned(x)', 'Victim(x) & Intact(x) & Complexion(x, Pale) & Boils(x) ==> Poisoned(x)',
+    'Victim(x) & Complexion(x, Pale) & Cold(x) ==> Drained(x)', 'Victim(x) & Complexion(x, Pale) & Punctured(x) ==> Drained(x)',
+    'Victim(x) & Disemboweled(x) ==> Incomplete(x)', 'Victim(x) & Dismembered(x) ==> Incomplete(x)'
 ]
 # Also Think about breaking up sentences
 
 # These comments come from the TA talking about the PA2
-# only implement the definite clauses 
+# only implement the definite clauses
 # What are definite clauses?
 
 # A implies B
@@ -137,12 +137,12 @@ monster_sentences = [
 # A implies B
 # not A implies not B
 
-#Query: P implies Q
+# Query: P implies Q
 # L ^ M -> P and for this assignment is &
 # B ^ L => M
 # A ^ P => L
 # A ^ B => L
-# A 
+# A
 # B
 # A,B are my facts that I know are true
 
@@ -161,21 +161,20 @@ monster_sentences = [
 #    L
 #  A   B
 
-#L, B implies M
+# L, B implies M
 # L A implies P
 # L M implies P
 # P implies Q
 
 # have 2 literals
 
-#starts at A and B, know they are our facts and know they are true
+# starts at A and B, know they are our facts and know they are true
 # decrease # that have A or B in them
 
-#starts from fact and explores every implications we have and goes forward to prove the query
-#that is forward chaining / data-driven method
+# starts from fact and explores every implications we have and goes forward to prove the query
+# that is forward chaining / data-driven method
 
-#backward chaining is much faster
-#we start with Q to be true  and then go down and find the path to the 2 facts 
+# backward chaining is much faster
+# we start with Q to be true  and then go down and find the path to the 2 facts
 
-#not (A V B) == not A ^ not B
-
+# not (A V B) == not A ^ not B
