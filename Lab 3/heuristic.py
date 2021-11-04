@@ -55,7 +55,7 @@
 # have location, current turn, action, time steps before guardian turns
 # minimax is already done
 # in minimax function value, expectedvalueaftermove
-# probablyoftime returns probablyity of each time step 
+# probablyoftime returns probablyity of each time step
 # good heurstic function who can estimate this ultity
 # heurstic function for player, want lower the better
 # heurstic function for computer, want higher the better
@@ -67,7 +67,7 @@
 # then * probablity delay and othe rthings
 # then add them up together
 #
-# Denylson Fuentes on helping me understand what the equation from the slides meant and I overheard his conversation with the TA and how to get the probability 
+# Denylson Fuentes on helping me understand what the equation from the slides meant and I overheard his conversation with the TA and how to get the probability
 # the TA helped me understand how to get the expected value
 #
 #
@@ -88,43 +88,38 @@ def expected_value_over_delays(state, ply):
     utility value."""
     val = 0.0
     tmpVal = 0.0
-    
+
     # PLACE YOUR CODE HERE
     # Note that the value of "ply" must be passed along, without
-    # modification, to any function calls that calculate the value 
+    # modification, to any function calls that calculate the value
     # of a state.
     # pretty simple
     # just follow the equation given on slides
     # given probably of time and actions
-    
-    #EU(A,S) = SUM(Probablity(Result(A,S) Given a State And Doing the action(A)) * Utility(Result(A,S)))
-    #Taken from lecture 19 slide 26
-    #have action, iterate over possible delays
-    #for this action, see what delay for 2,3,4,5 and see what utility we can get.
-    
-    
-    #called during in actions
-    #minimax iterates over all possible states
-    #needs 1 extra info
-    #needs utility
-    
-    for delay in range(2,5+1):
+
+    # EU(A,S) = SUM(Probablity(Result(A,S) Given a State And Doing the action(A)) * Utility(Result(A,S)))
+    # Taken from lecture 19 slide 26
+    # have action, iterate over possible delays
+    # for this action, see what delay for 2,3,4,5 and see what utility we can get.
+
+    # called during in actions
+    # minimax iterates over all possible states
+    # needs 1 extra info
+    # needs utility
+
+    for delay in range(2, 5+1):
         state.time_remaining = delay
-        val += probability_of_time(delay) * value(state,ply)
-    
-    #THIS IS DONE!!!!! 
-        
-    
-    #we already have actions
-    #want to find the sum of all the probabilities given the delay times
-    #before sum need to multiply the probabytime * value of something
-    
-    
+        val += probability_of_time(delay) * value(state, ply)
+
+    # THIS IS DONE!!!!!
+
+    # we already have actions
+    # want to find the sum of all the probabilities given the delay times
+    # before sum need to multiply the probabytime * value of something
+
     #val = max(tmpval)
-    
+
     #Probalbity(Result() | S ^ Do(A))
-        
-    
 
     return val
 
@@ -135,11 +130,12 @@ def heuristic_value(state):
     be between the maximum payoff value and the additive inverse of the
     maximum payoff."""
     val = 0.0
-    val = 50.0
+    tmpVal = 0.0
+
+    tmpVal = abs(state.w)
     # up to us what heuristic function to make
-    #use location and distance stuff to help find it
-    #consider board size as well.
+    # use location and distance stuff to help find it
+    # consider board size as well.
     # PLACE YOUR CODE HERE
-    
 
     return val
