@@ -132,10 +132,13 @@ def heuristic_value(state):
     val = 0.0
     tmpVal = 0.0
 
-    tmpVal = abs(state.w)
+    if state.current_turn is Player.west:
+        tmpVal = (13 - abs(state.w_loc)) * -1
+    else:
+        tmpVal = 13 - abs(state.e_loc)
     # up to us what heuristic function to make
     # use location and distance stuff to help find it
     # consider board size as well.
     # PLACE YOUR CODE HERE
-
+    val = tmpVal
     return val
