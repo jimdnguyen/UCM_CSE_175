@@ -69,7 +69,7 @@
 #
 # Denylson Fuentes on helping me understand what the equation from the slides meant and I overheard his conversation with the TA and how to get the probability
 # the TA helped me understand how to get the expected value
-#
+# Denylson Fuentes helped me understand the concept of the payoff value
 #
 #
 
@@ -87,7 +87,6 @@ def expected_value_over_delays(state, ply):
     Guardian delay times, ranging from 2 to 5 steps. Return this expected
     utility value."""
     val = 0.0
-    tmpVal = 0.0
 
     # PLACE YOUR CODE HERE
     # Note that the value of "ply" must be passed along, without
@@ -117,9 +116,9 @@ def expected_value_over_delays(state, ply):
     # want to find the sum of all the probabilities given the delay times
     # before sum need to multiply the probabytime * value of something
 
-    #val = max(tmpval)
+    # val = max(tmpval)
 
-    #Probalbity(Result() | S ^ Do(A))
+    # Probalbity(Result() | S ^ Do(A))
 
     return val
 
@@ -130,15 +129,33 @@ def heuristic_value(state):
     be between the maximum payoff value and the additive inverse of the
     maximum payoff."""
     val = 0.0
-    tmpVal = 0.0
+    tmpValComputer = 0.0
+    tmpValHuman = 0.0
+    # -100 to 100 is payoff value
 
-    if state.current_turn is Player.west:
-        tmpVal = (13 - abs(state.w_loc)) * -1
-    else:
-        tmpVal = 13 - abs(state.e_loc)
     # up to us what heuristic function to make
     # use location and distance stuff to help find it
     # consider board size as well.
     # PLACE YOUR CODE HERE
+    # got help from Denylson, he helped me understand concept of payoff
+
+    tmpValComputer = abs(board_size) - abs(state.w_loc)
+    tmpValHuman = abs(board_size) - abs(state.e_loc)
+    if tmpValHuman == tmpValComputer:
+        if state.current_turn is Player.west:
+            tmpVal = -25
+        else:
+            tmpVal = 25
+    elif tmpValHuman > tmpValComputer:
+        if state.current_turn is Player.west:
+            tmpVal = -100
+        else:
+            tmpVal = -50
+    elif tmpValComputer > tmpValHuman:
+        if state.current_turn is Player.east:
+            tmpVal = 100
+        else:
+            tmpVal = 50
+
     val = tmpVal
     return val
