@@ -17,7 +17,7 @@
 # Which network architecture achieves the lowest training set error?
 # After running the architecture 25 times, AnnTwoHid had the lowest training set error with 0.024067108
 
-# Which network architecture tends to exhibit the best testing set accuracy?
+# Which network architecture tends to exhibit the best testing set. accuracy?
 # After running the architecture 25 times, AnnOneHid tends to exhibt the best testing set accuracy with an average testing set accuracy of 0.969892473
 #
 # PLACE YOUR NAME AND THE DATE HERE
