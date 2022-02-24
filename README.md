@@ -1,2 +1,3 @@
 # UCM_CSE_175
-Lab work for UCM CSE 175 Intro to Artificial Intelligence using Python
+This github repository has my code for my UCM CSE 175 Introduction to Artificial Intellgience using Python.
+
